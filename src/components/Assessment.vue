@@ -49,16 +49,16 @@ const media = [
     name: "Rechte ecke",
     rating: {
       position: 5,
-      easyness: 3,
-      people: 2,
+      easyness: 5,
+      people: 1,
     }
   },
   {
     name: "Linkes pack",
     rating: {
       position: 1,
-      easyness: 3,
-      people: 3,
+      easyness: 1,
+      people: 5,
     }
   },
   {

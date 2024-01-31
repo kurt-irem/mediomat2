@@ -18,7 +18,7 @@ function updateAnswer() {
     <div class="range">
       <input type="range" min="1" max="5" width="4em" list="scale" v-model="answer" @change="updateAnswer()">
       <datalist id="scale">
-        <option v-for="(name, value) of props.scale" :value="value" v-text="name"></option>
+        <option v-for="(name, value) of props.scale" :value="value" :label="name"></option>
       </datalist>
     </div>
   </div>
@@ -80,7 +80,6 @@ function updateAnswer() {
   display: block;
   width: 0;
   height: auto;
-  padding-left: 3px;
   text-indent: 0;
 }
 
