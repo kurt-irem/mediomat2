@@ -1,6 +1,20 @@
 import './assets/main.css'
+import {createApp} from 'vue'
+import {createRouter, createWebHashHistory} from 'vue-router'
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import AddMedia from "@/components/AddMedia.vue";
+import Assessment from "@/components/Assessment.vue";
+import App from "@/App.vue";
 
-createApp(App).mount('#app')
+const router = createRouter({
+    history: createWebHashHistory(),
+    routes: [
+        {path: '/', component: Assessment},
+        {path: '/add-media', component: AddMedia},
+    ],
+})
+
+const app = createApp(App)
+app
+    .use(router)
+    .mount('#app')

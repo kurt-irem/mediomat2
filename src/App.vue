@@ -1,11 +1,14 @@
 <script setup>
-import Assessment from "@/components/Assessment.vue";
+import {useRouter, useRoute} from 'vue-router'
+import {onMounted} from "vue";
+
+onMounted( () => {
+  useRouter().push('/')
+})
 </script>
 
 <template>
-  <main>
-    <Assessment />
-  </main>
+  <router-view></router-view>
 </template>
 
 <style scoped>
