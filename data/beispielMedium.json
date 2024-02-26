@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Tagesschau",
+        "mediumArt": "podcast",
+        "beschreibung": "",
+        "url": "https://www.tagesschau.de/",
+        "image": "/tagesschau.svg",
+        "codierung": 56
+    },
+    {
+        "name": "Der Tag",
+        "mediumArt": "podcast",
+        "beschreibung": "",
+        "url": "https://www.deutschlandfunk.de/podcast-104.html",
+        "image": "/der_tag.svg",
+        "codierung": 20
+    },
+    {
+        "name": "Frankfurter Allgemeine",
+        "mediumArt": "Zeitung",
+        "beschreibung": "",
+        "url": "https://www.faz.net/aktuell/",
+        "image": "/faz.svg",
+        "codierung": 42
+    },
+    {
+        "name": "NTV",
+        "mediumArt": "online",
+        "beschreibung": "",
+        "url": "https://www.n-tv.de/",
+        "image": "/ntv.svg",
+        "codierung": 72
+    },
+    {
+        "name": "WELT",
+        "mediumArt": "Nachrichten",
+        "beschreibung": "",
+        "url": "https://www.welt.de/",
+        "image": "/welt.svg",
+        "codierung": 83
+    },
+    {
+        "name": "ZDF",
+        "mediumArt": "podcast",
+        "beschreibung": "",
+        "url": "https://www.zdf.de/",
+        "image": "/zdf.svg",
+        "codierung": 83
+    }
+]

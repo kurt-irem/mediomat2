@@ -1,0 +1,16 @@
+{
+    "startButton": "Start",
+    "anwendungsName": "Medi-O-Mat",
+    "ersteInformation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, praesentium! Distinctio reiciendis fugiat sunt dolores, debitis repellendus numquam. Aut quod omnis praesentium facilis qui sunt saepe eligendi nesciunt iusto quae.",
+    "wasIstWahlOMatHeader": "Was ist Medi-O-Mat",
+    "wasIstWahlOMatSubtext": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aliquam animi ullam cupiditate ea dignissimos, sint, architecto tenetur, quam aperiam quasi! Natus voluptate cum accusantium impedit laboriosam eius labore veniam!",
+    "resultsHeader": "Results",
+    "resultsSubtext": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aliquam animi ullam cupiditate ea dignissimos, sint, architecto tenetur, quam aperiam quasi! Natus voluptate cum accusantium impedit laboriosam eius labore veniam!",
+    "disclaimerHeader": "Disclaimer",
+    "disclaimerSubtext": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat aliquam animi ullam cupiditate ea dignissimos, sint, architecto tenetur, quam aperiam quasi! Natus voluptate cum accusantium impedit laboriosam eius labore veniam!",
+    "gewichtungHeader": "Gewichtung der Thesen",
+    "gewichtungSubtext": "Welche Thesen sind Ihnen besonders wichtig? Markieren Sie die Thesen, um diese mit doppelter Gewichtung in die Berechnung einfließen zu lassen.",
+    "vielenDankHeader": "Vielen Dank fürs mitmachen",
+    "vielenDankSubtext": "hier könnte ihre werbung stehen! Besuchen Sie uns bald wieder.",
+    "waehleEinMedium": "Das könnte ein Medium für dich sein"
+}

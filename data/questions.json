@@ -1,0 +1,741 @@
+{
+    "fragen": [
+        {
+            "kategorie": "",
+            "fragenliste": [
+                {
+                    "frage": "Ich möchte Nachrichten auf mehreren Plattformen konsumieren können",
+                    "beschreibung": "Hier meinen wir Formate wie Radio-sendungen, Podcasts, etc… Was hier nicht reinfällt sind TV-Sendungen, Video-Interview-Formate auf YouTube etc.",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich möchte Nachrichten vor allem online konsumieren",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich möchte Nachrichten vor allem in gedruckter Form konsumieren",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich konsumiere Nachrichten am liebsten in Form von Text",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich konsumiere Nachrichten am liebsten in Form von Audio",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich konsumiere Nachrichten am liebsten in Form von Video",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich bin bereit für Journalismus zu bezahlen",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Mir ist Diversität in der Redaktion wichtig",
+                    "beschreibung": "(5=sofort (Liveticker) - 4=mehrmals täglich - 3=1x täglich - 2=wöchentlich - 1=seltener) ",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Mir ist eine flache Hierarchie in der Redaktion wichtig",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich möchte wissen, von wem und aus welcher Perspektive die Artikel geschrieben werden",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich will immer über lokale Geschehnisse informiert sein",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich will immer über internationale Geschehnisse informiert sein",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich will immer über popkulturelle Ereignisse informiert sein",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich will immer über die Wirtschafts- und Finanzwelt informiert sein",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich will immer über Umwelt und Klimapolitik informiert sein",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich möchte Nachrichten vor allem in gedruckter Form konsumieren.",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich will immer über Netzpolitik und Digitalisierung informiert sein",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich will immer über die politische Lage informiert sein",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich will immer über Sport informiert sein",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "kategorie": "",
+            "fragenliste": [
+                {
+                    "frage": "Ich bekomme meine Nachrichten lieber...",
+                    "beschreibung": "Beschreibung zur Frage 3",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "tagesaktuell"
+                        },
+                        {
+                            "wert": 2,
+                            "label": ""
+                        },
+                        {
+                            "wert": 3,
+                            "label": ""
+                        },
+                        {
+                            "wert": 4,
+                            "label": ""
+                        },
+                        {
+                            "wert": 5,
+                            "label": "gründlich aufbereitet"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Mir ist wichtig, dass Themen inhaltlich kritisch diskutiert werden",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich würde gerne auch lösungsorientierte Nachrichten konsumieren",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich möchte Nachrichten konsumieren, die mich gut fühlen lassen",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Mir ist eine gute Veranschaulichung wichtig, z.B. in Form von Bildern, Grafiken oder Videos",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich konsumiere Nachrichten lieber wenn sie auch unterhaltsam sind",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Mir ist wichtig, dass in den Beiträgen gegendert wird",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Eine leichte Verständlichkeit ist mir wichtig (keine Fremd- oder Fachwörter)",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                },
+                {
+                    "frage": "Ich möchte nur Beiträge auf Deutsch konsumieren",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
