@@ -734,6 +734,32 @@
                             "label": "stimme voll zu"
                         }
                     ]
+                },
+                {
+                    "frage": "letzte Frage",
+                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "bewertung": [
+                        {
+                            "wert": 1,
+                            "label": "stimme gar nicht zu"
+                        },
+                        {
+                            "wert": 2,
+                            "label": "stimme eher nicht zu"
+                        },
+                        {
+                            "wert": 3,
+                            "label": "neutral"
+                        },
+                        {
+                            "wert": 4,
+                            "label": "stimme eher zu"
+                        },
+                        {
+                            "wert": 5,
+                            "label": "stimme voll zu"
+                        }
+                    ]
                 }
             ]
         }
