@@ -19,11 +19,11 @@ export default function Befragung() {
     setCurrentQuestValue((prev) => [...prev, value]);
     setSumme((prev) => prev + value);
     let updatedSumme = summe + value;
+    let updateQuestValue = [...currentQuestValue, value]
     if (currentQuestionIndex + 1 < totalQuestionCount) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
-      console.log(updatedSumme, "Finish");
-      router.push("/ergebnis");
+      router.push("/ergebnis?answer=" + JSON.stringify(updateQuestValue));
     }
   };
 
