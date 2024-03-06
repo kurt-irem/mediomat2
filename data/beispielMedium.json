@@ -1,9 +1,9 @@
 [
   {
-    "name": "ZDF heute Nachrichten",
-    "mediumArt": "app",
+    "name": "ZDFheute",
+    "mediumArt": "fernsehen",
     "beschreibung": "",
-    "url": "",
+    "url": "https://zdf.de/nachrichten",
     "image": "/zdf.svg",
     "code": "zdfheute",
     "codierung": {
