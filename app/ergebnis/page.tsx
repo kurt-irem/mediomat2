@@ -19,7 +19,6 @@ export default function Ergebnis() {
     let mediaResults: { [index: string]: number } = {}
     const searchParams = useSearchParams()
     let answers = JSON.parse(searchParams.get("answer") as string)
-    console.log(answers)
     for (let medium of test) {
         // @ts-ignore
         results[medium.code] = {}
