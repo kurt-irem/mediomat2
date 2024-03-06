@@ -31,7 +31,7 @@ export default function FragenKarte({
         {/* TODO - Kategorie hinzufügen, falls wir das brauchen! */}
         {"Frage " + fragenCounter.index + " von " + fragenCounter.counter}
       </h3>
-      <h2 className="font-normal text-[40px] leading-[140%]">{frage + "?"}</h2>
+      <h2 className="font-normal text-[40px] leading-[140%]">{frage + "."}</h2>
       <div className="flex flex-row justify-between gap-6 mt-6">
         {bewertung.map((frage, index) => (
           <FrageButton
