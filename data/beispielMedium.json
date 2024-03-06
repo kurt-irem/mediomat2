@@ -1,10 +1,10 @@
 [
   {
-    "name": "ZDF 'Heute'",
-    "mediumArt": "podcast",
+    "name": "ZDF heute Nachrichten",
+    "mediumArt": "app",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
-    "image": "/tagesschau.svg",
+    "url": "",
+    "image": "/zdf.svg",
     "code": "zdfheute",
     "codierung": {
       "1": 5,
@@ -39,11 +39,11 @@
     }
   },
   {
-    "name": "ZDF App",
+    "name": "ZDFheute",
     "mediumArt": "app",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
-    "image": "/tagesschau.svg",
+    "url": "",
+    "image": "/zdf.svg",
     "code": "zdfapp",
     "codierung": {
       "1": 5,
@@ -81,7 +81,7 @@
     "name": "Lage der Nation ",
     "mediumArt": "podcast",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://lagedernation.org/",
     "image": "/tagesschau.svg",
     "code": "lage",
     "codierung": {
@@ -118,9 +118,9 @@
   },
   {
     "name": "Berliner Zeitung",
-    "mediumArt": "podcast",
+    "mediumArt": "zeitung",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://berliner-zeitung.de/",
     "image": "/tagesschau.svg",
     "code": "bz",
     "codierung": {
@@ -157,9 +157,9 @@
   },
   {
     "name": "Klasse gegen Klasse",
-    "mediumArt": "podcast",
+    "mediumArt": "website",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://klassegegenklasse.org/",
     "image": "/tagesschau.svg",
     "code": "kgk",
     "codierung": {
@@ -196,9 +196,9 @@
   },
   {
     "name": "nd",
-    "mediumArt": "podcast",
+    "mediumArt": "zeitung",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://nd-aktuell.de/",
     "image": "/tagesschau.svg",
     "code": "nd",
     "codierung": {
@@ -235,9 +235,9 @@
   },
   {
     "name": "Junge Welt",
-    "mediumArt": "podcast",
+    "mediumArt": "zeitung",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://jungewelt.de/",
     "image": "/tagesschau.svg",
     "code": "jungewelt",
     "codierung": {
@@ -276,7 +276,7 @@
     "name": "taz",
     "mediumArt": "zeitung",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://taz.de/",
     "image": "/tagesschau.svg",
     "code": "taz",
     "codierung": {
@@ -313,9 +313,9 @@
   },
   {
     "name": "Tagesspiegel",
-    "mediumArt": "Zeitung",
+    "mediumArt": "zeitung",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://tagesspiegel.de/",
     "image": "/tagesschau.svg",
     "code": "tagesspiegel",
     "codierung": {
@@ -351,11 +351,11 @@
     }
   },
   {
-    "name": "FAZ",
-    "mediumArt": "Zeitung",
+    "name": "Frankfurter Allgemeine",
+    "mediumArt": "zeitung",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
-    "image": "/tagesschau.svg",
+    "url": "https://faz.net/",
+    "image": "/faz.svg",
     "code": "faz",
     "codierung": {
       "1": 5,
@@ -393,7 +393,7 @@
     "name": "Tagesschau App",
     "mediumArt": "app",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "tsapp",
     "codierung": {
@@ -430,9 +430,9 @@
   },
   {
     "name": "Katapult",
-    "mediumArt": "podcast",
+    "mediumArt": "instagram",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://instagram.com/katapultmagazin/",
     "image": "/tagesschau.svg",
     "code": "katapult",
     "codierung": {
@@ -469,9 +469,9 @@
   },
   {
     "name": "Vice",
-    "mediumArt": "podcast",
+    "mediumArt": "website",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://vice.com/",
     "image": "/tagesschau.svg",
     "code": "vice",
     "codierung": {
@@ -508,9 +508,9 @@
   },
   {
     "name": "Handelsblatt",
-    "mediumArt": "podcast",
+    "mediumArt": "zeitung",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://handelsblatt.com/",
     "image": "/tagesschau.svg",
     "code": "hb",
     "codierung": {
@@ -546,10 +546,10 @@
     }
   },
   {
-    "name": "Übermedien",
+    "name": "Über Medien",
     "mediumArt": "instagram",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "ueber",
     "codierung": {
@@ -588,7 +588,7 @@
     "name": "Atlas",
     "mediumArt": "youtube",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "atlas",
     "codierung": {
@@ -625,9 +625,9 @@
   },
   {
     "name": "Correctiv",
-    "mediumArt": "youtube",
+    "mediumArt": "website",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://correctiv.org/",
     "image": "/tagesschau.svg",
     "code": "correctiv",
     "codierung": {
@@ -666,7 +666,7 @@
     "name": "Podcast vom Tagesspiegel",
     "mediumArt": "podcast",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "tgpod",
     "codierung": {
@@ -703,9 +703,9 @@
   },
   {
     "name": "Plan B",
-    "mediumArt": "podcast",
+    "mediumArt": "fernsehen",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "planb",
     "codierung": {
@@ -742,9 +742,9 @@
   },
   {
     "name": "Arte Europa - die Woche",
-    "mediumArt": "podcast",
+    "mediumArt": "fernsehen",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "artewoche",
     "codierung": {
@@ -781,9 +781,9 @@
   },
   {
     "name": "Nano",
-    "mediumArt": "podcast",
+    "mediumArt": "fernsehen",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "nano",
     "codierung": {
@@ -819,10 +819,10 @@
     }
   },
   {
-    "name": "TageThe Daily on New York Times",
-    "mediumArt": "podcast",
+    "name": "The Daily on New York Times",
+    "mediumArt": "zeitung",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "dailynt",
     "codierung": {
@@ -858,10 +858,10 @@
     }
   },
   {
-    "name": "Jung&Naiv",
+    "name": "jung&naiv",
     "mediumArt": "podcast",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://jungundnaiv.de/",
     "image": "/tagesschau.svg",
     "code": "jungnaiv",
     "codierung": {
@@ -898,9 +898,9 @@
   },
   {
     "name": "Brisant",
-    "mediumArt": "podcast",
+    "mediumArt": "fernsehen",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "",
     "image": "/tagesschau.svg",
     "code": "brisant",
     "codierung": {
@@ -937,9 +937,9 @@
   },
   {
     "name": "104.6",
-    "mediumArt": "podcast",
+    "mediumArt": "radio",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://104.6rtl.com/",
     "image": "/tagesschau.svg",
     "code": "hundertviersechs",
     "codierung": {
@@ -976,9 +976,9 @@
   },
   {
     "name": "Krautreporter",
-    "mediumArt": "podcast",
+    "mediumArt": "website",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://krautreporter.de/",
     "image": "/tagesschau.svg",
     "code": "kraut",
     "codierung": {
@@ -1014,10 +1014,10 @@
     }
   },
   {
-    "name": "Beyond Gossip (Funk)",
-    "mediumArt": "podcast",
+    "name": "Beyond Gossip",
+    "mediumArt": "youtube",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https:/funk.net/channel/beyond-gossip-12324",
     "image": "/tagesschau.svg",
     "code": "beyond",
     "codierung": {
@@ -1054,9 +1054,9 @@
   },
   {
     "name": "Perspective Daily",
-    "mediumArt": "podcast",
+    "mediumArt": "website",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://perspective-daily.de/",
     "image": "/tagesschau.svg",
     "code": "perpective",
     "codierung": {
@@ -1093,9 +1093,9 @@
   },
   {
     "name": "Missy Magazin",
-    "mediumArt": "podcast",
+    "mediumArt": "zeitschrift",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://missy-magazine.de/",
     "image": "/tagesschau.svg",
     "code": "missy",
     "codierung": {
@@ -1134,7 +1134,7 @@
     "name": "Apokalypse & Filterkaffee",
     "mediumArt": "podcast",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://apokalypse-und-filterkaffee.io/",
     "image": "/tagesschau.svg",
     "code": "apokalypse",
     "codierung": {
@@ -1171,9 +1171,9 @@
   },
   {
     "name": "Inside PolitiX",
-    "mediumArt": "podcast",
+    "mediumArt": "fernsehen",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://zdf.de/politik/inside-politix",
     "image": "/tagesschau.svg",
     "code": "politx",
     "codierung": {
@@ -1212,7 +1212,7 @@
     "name": "Was jetzt?",
     "mediumArt": "podcast",
     "beschreibung": "",
-    "url": "https://www.tagesschau.de/",
+    "url": "https://zeit.de/serie/was-jetzt",
     "image": "/tagesschau.svg",
     "code": "wasjetzt",
     "codierung": {
