@@ -103,7 +103,6 @@ export default function Befragung() {
           />
         </div>
       </div>
-      Ergebnis: {summe}
     </div>
   );
 }
