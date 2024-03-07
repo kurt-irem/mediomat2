@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card > div {
+    scale: 1.1;
+    background-color: gold;
+}
+
+.card > div:first-child {
+    scale: .9;
+    background-color: silver;
+}
+
+.card > div:last-child {
+    scale: .8;
+    background-color: saddlebrown;
+}

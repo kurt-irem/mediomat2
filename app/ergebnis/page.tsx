@@ -73,7 +73,7 @@ const Ergebnis = () => {
             </h2>
 
             <Suspense fallback={<div>Loading...</div>}>
-            <div className="flex justify-center py-2">
+            <div className="flex justify-center py-2 card">
                 {favoriteCards.map((card, index) => (
                         <VorschlagCard
                         key={index}
