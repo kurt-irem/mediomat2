@@ -2,6 +2,8 @@
 import VorschlagCard from "@/components/cards/vorschlagCard";
 import test from "../../data/beispielMedium.json";
 import {useSearchParams} from "next/navigation";
+//import {useEffect, useState} from 'react';
+import { Suspense } from 'react';
 
 interface Bewertung {
     wert: number;
@@ -12,11 +14,26 @@ interface FragenKarteProps {
     bewertung: Bewertung[];
 }
 
-export default function Ergebnis() {
+
+
+const Ergebnis = () => {
     let results: { [index: string]: any } = {}
     let mediaResults: { [index: string]: number } = {}
+
     const searchParams = useSearchParams()
     let answers = JSON.parse(searchParams.get("answer") as string)
+    /*const [answers, setAnswers] = useState(null);
+
+    useEffect(() => {
+        const searchParams = useSearchParams();
+        const userAnswers = JSON.parse(searchParams.get('answer') as string);
+        setAnswers(userAnswers);
+    }, []);
+
+    if (!answers) {
+        return <p>Loading...</p>;
+    }*/
+
     for (let medium of test) {
         // @ts-ignore
         results[medium.code] = {}
@@ -55,6 +72,7 @@ export default function Ergebnis() {
                 Diese Auswahl an Medien könnten Sie interessieren.
             </h2>
 
+            <Suspense fallback={<div>Loading...</div>}>
             <div className="flex justify-center py-2">
                 {favoriteCards.map((card, index) => (
                         <VorschlagCard
@@ -66,6 +84,9 @@ export default function Ergebnis() {
                         url={card.url}/>
                 ))}
             </div>
+            </Suspense>
         </div>
     );
 }
+
+export default Ergebnis
