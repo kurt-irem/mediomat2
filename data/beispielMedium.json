@@ -121,7 +121,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "https://berliner-zeitung.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/bz.svg",
     "code": "bz",
     "codierung": {
       "1": 5,
@@ -160,7 +160,7 @@
     "mediumArt": "website",
     "beschreibung": "",
     "url": "https://klassegegenklasse.org/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/kgk.png",
     "code": "kgk",
     "codierung": {
       "1": 5,
@@ -199,7 +199,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "https://nd-aktuell.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/nd.svg",
     "code": "nd",
     "codierung": {
       "1": 5,
@@ -238,7 +238,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "https://jungewelt.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "jungewelt",
     "codierung": {
       "1": 5,
@@ -277,7 +277,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "https://taz.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "taz",
     "codierung": {
       "1": 5,
@@ -316,7 +316,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "https://tagesspiegel.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/ts.svg",
     "code": "tagesspiegel",
     "codierung": {
       "1": 5,
@@ -433,7 +433,7 @@
     "mediumArt": "instagram",
     "beschreibung": "",
     "url": "https://instagram.com/katapultmagazin/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "katapult",
     "codierung": {
       "1": 5,
@@ -472,7 +472,7 @@
     "mediumArt": "website",
     "beschreibung": "",
     "url": "https://vice.com/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/vice.svg",
     "code": "vice",
     "codierung": {
       "1": 5,
@@ -511,7 +511,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "https://handelsblatt.com/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "hb",
     "codierung": {
       "1": 5,
@@ -550,7 +550,7 @@
     "mediumArt": "instagram",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "ueber",
     "codierung": {
       "1": 5,
@@ -589,7 +589,7 @@
     "mediumArt": "youtube",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "atlas",
     "codierung": {
       "1": 5,
@@ -628,7 +628,7 @@
     "mediumArt": "website",
     "beschreibung": "",
     "url": "https://correctiv.org/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "correctiv",
     "codierung": {
       "1": 5,
@@ -667,7 +667,7 @@
     "mediumArt": "podcast",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "tgpod",
     "codierung": {
       "1": 5,
@@ -706,7 +706,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "planb",
     "codierung": {
       "1": 5,
@@ -745,7 +745,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "artewoche",
     "codierung": {
       "1": 5,
@@ -784,7 +784,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "nano",
     "codierung": {
       "1": 5,
@@ -823,7 +823,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "dailynt",
     "codierung": {
       "1": 1,
@@ -862,7 +862,7 @@
     "mediumArt": "podcast",
     "beschreibung": "",
     "url": "https://jungundnaiv.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "jungnaiv",
     "codierung": {
       "1": 1,
@@ -901,7 +901,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "brisant",
     "codierung": {
       "1": 1,
@@ -940,7 +940,7 @@
     "mediumArt": "radio",
     "beschreibung": "",
     "url": "https://104.6rtl.com/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "hundertviersechs",
     "codierung": {
       "1": 1,
@@ -979,7 +979,7 @@
     "mediumArt": "website",
     "beschreibung": "",
     "url": "https://krautreporter.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "kraut",
     "codierung": {
       "1": 2,
@@ -1018,7 +1018,7 @@
     "mediumArt": "youtube",
     "beschreibung": "",
     "url": "https:/funk.net/channel/beyond-gossip-12324",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "beyond",
     "codierung": {
       "1": 5,
@@ -1057,7 +1057,7 @@
     "mediumArt": "website",
     "beschreibung": "",
     "url": "https://perspective-daily.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "perpective",
     "codierung": {
       "1": 2,
@@ -1096,7 +1096,7 @@
     "mediumArt": "zeitschrift",
     "beschreibung": "",
     "url": "https://missy-magazine.de/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "missy",
     "codierung": {
       "1": 4,
@@ -1135,7 +1135,7 @@
     "mediumArt": "podcast",
     "beschreibung": "",
     "url": "https://apokalypse-und-filterkaffee.io/",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "apokalypse",
     "codierung": {
       "1": 1,
@@ -1174,7 +1174,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "",
     "url": "https://zdf.de/politik/inside-politix",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "politx",
     "codierung": {
       "1": 3,
@@ -1213,7 +1213,7 @@
     "mediumArt": "podcast",
     "beschreibung": "",
     "url": "https://zeit.de/serie/was-jetzt",
-    "image": "/logos/tagesschau.svg",
+    "image": "/logos/",
     "code": "wasjetzt",
     "codierung": {
       "1": 1,
