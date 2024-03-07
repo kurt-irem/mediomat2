@@ -17,30 +17,15 @@ interface FragenKarteProps {
 
 
 const Ergebnis = () => {
-    let results: { [index: string]: any } = {}
     let mediaResults: { [index: string]: number } = {}
 
     const searchParams = useSearchParams()
     let answers = JSON.parse(searchParams.get("answer") as string)
-    /*const [answers, setAnswers] = useState(null);
-
-    useEffect(() => {
-        const searchParams = useSearchParams();
-        const userAnswers = JSON.parse(searchParams.get('answer') as string);
-        setAnswers(userAnswers);
-    }, []);
-
-    if (!answers) {
-        return <p>Loading...</p>;
-    }*/
 
     for (let medium of test) {
         // @ts-ignore
-        results[medium.code] = {}
         mediaResults[medium.code] = 0
         for (let attr in medium.codierung) {
-            // @ts-ignore
-            results[medium.code][attr - 1] = Math.abs(answers[attr - 1] - medium.codierung[attr])
             // @ts-ignore
             mediaResults[medium.code] += Math.pow(Math.abs(answers[attr - 1] - medium.codierung[attr]), 2)
         }
