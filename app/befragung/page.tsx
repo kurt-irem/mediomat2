@@ -20,7 +20,6 @@ export default function Befragung() {
     setSumme((prev) => prev + value);
     let updatedSumme = summe + value;
     let updateQuestValue = [...currentQuestValue, value]
-    totalQuestionCount = 5
     if (currentQuestionIndex + 1 < totalQuestionCount) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
