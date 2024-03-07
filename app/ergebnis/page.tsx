@@ -1,6 +1,6 @@
 "use client";
 import VorschlagCard from "@/components/cards/vorschlagCard";
-import test from "../../data/beispielMedium.json";
+import test from "../../data/media.json";
 import {useSearchParams} from "next/navigation";
 //import {useEffect, useState} from 'react';
 import { Suspense } from 'react';
