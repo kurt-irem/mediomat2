@@ -169,15 +169,15 @@
                         },
                         {
                             "wert": 2,
-                            "label": " "
+                            "label": "eher kürzer"
                         },
                         {
                             "wert": 3,
-                            "label": " "
+                            "label": "weder noch"
                         },
                         {
                             "wert": 4,
-                            "label": " "
+                            "label": "eher ausführlicher"
                         },
                         {
                             "wert": 5,
@@ -537,15 +537,15 @@
                         },
                         {
                             "wert": 2,
-                            "label": ""
+                            "label": "eher schnell"
                         },
                         {
                             "wert": 3,
-                            "label": ""
+                            "label": "weder noch"
                         },
                         {
                             "wert": 4,
-                            "label": ""
+                            "label": "eher aufbereitet"
                         },
                         {
                             "wert": 5,
