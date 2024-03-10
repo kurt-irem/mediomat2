@@ -1,0 +1,30 @@
+<svg data-name="Ebene 11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 667.8 103.501">
+    <defs>
+        <linearGradient id="prefix__b" data-name="Unbenannter Verlauf" x1="21603.806" y1="8589.268" x2="21605.23"
+                        y2="8589.268" gradientTransform="scale(54.115 -54.115) rotate(-45 438.41 30360.303)"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="red"></stop>
+            <stop offset="1" stop-color="#900"></stop>
+        </linearGradient>
+        <linearGradient id="prefix__a" data-name="Unbenannter Verlauf 2" x1="21534.708" y1="8559.876" x2="21536.136"
+                        y2="8559.876" gradientTransform="scale(46.525 -46.525) rotate(-45 440.016 30258.28)"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="red"></stop>
+            <stop offset=".005" stop-color="red"></stop>
+            <stop offset="1" stop-color="#b10000"></stop>
+        </linearGradient>
+        <linearGradient id="prefix__c" data-name="Unbenannter Verlauf 3" x1="21534.708" y1="8559.884" x2="21536.134"
+                        y2="8559.884" xlink:href="#prefix__a"></linearGradient>
+        <symbol id="prefix__d" data-name="logo-default" viewBox="0 0 667.8 103.5">
+            <path fill="#f8f8f8" d="M0 .1h586v90H0z"></path>
+            <path d="M72.8 66.8a20.006 20.006 0 00-10.2-17.9c7.7-3.3 13.5-10 13.5-20.1 0-15.9-9.2-25.7-24-28.7h37.2v90H52.6c12.6-2.8 20.2-10.7 20.2-23.3zm35.9-34.6V.1h36.2l-16.7 32.1zm25.3 41h-25.3V49.6H134c9 0 13.8 3.9 13.8 12 0 8.2-5.3 11.6-13.8 11.6zm219.2-36.1L347 53.8c-1.9 5.4-3.9 10.9-4.8 14.3-1-3.4-2.9-8.9-4.9-14.3l-6.2-16.7zm106.4-5c0 3.4-.3 15-.3 20.1v37.9h-40l33.6-47.6c2.3-3.5 5.5-8.1 6.7-10.4zM56.2 28.5c0 7.9-4.4 11.8-13.8 11.8H16.7V16.5h25.7c9.4.1 13.8 4.8 13.8 12zm111.5 33.4c0-13.8-6.2-22.5-18.5-27.1l18-34.8h15.7v90h-38.5c13.4-2.9 23.3-12.2 23.3-28.1zM53.2 65.3c0 5.8-3.5 8.8-11.9 8.8H16.7V56.6h25.5c8.1.1 11 3.6 11 8.7zm198-27.2c-17.8 4-30.3 9.4-30.3 27.5 0 11.9 7.8 20.5 19.2 24.5h-37.9V.1h36c-8.9 2.8-16.3 7.7-21 14.3l13.9 11.8c6.8-7.5 15.5-10.6 24.8-10.6 11.5 0 16.8 3 16.8 10 0 5.9-3.3 8.6-21.5 12.5zm237.9 52h-10.7V.1h38.5V73h-27.7v17.1zM536.2 73V.1h30.6V73zM418.9 59.7c0-3.4.3-15 .3-20.1V.1h41.3l-34.8 49.2c-2.4 3.4-5.5 8-6.8 10.4zM271.7 90.1a45.98 45.98 0 0018.9-12l-13.9-12.9c-6.2 6-13.1 9.5-22 9.5-10.4 0-13.8-4.2-13.8-8.3 0-5.8 4.1-7.6 19.5-11S292.7 47 292.7 27c0-12.8-6.2-22.6-19.9-26.9h23.7l36.2 90zm52.8-70.5L317.3.1h49.8l-7.2 19.5zM388.3.1h11.9v90h-47.8z"
+                  fill="#2e2e2c"></path>
+            <path fill="url(#prefix__b)" d="M586 90.1h-19V.1h19v90z"></path>
+            <path fill="url(#prefix__a)" d="M648.1 56.9v33.3l-33.6-12v-8.3l11.1 4v-25l22.5 8z"></path>
+            <path d="M667.8 70.4a33.2 33.2 0 11-33.2-33.3 33.246 33.246 0 0133.2 33.3zm-61.6 0a28.4 28.4 0 1028.4-28.5 28.381 28.381 0 00-28.4 28.5z"
+                  fill="url(#prefix__c)"></path>
+        </symbol>
+    </defs>
+    <use width="667.8" height="103.501" transform="matrix(1 0 0 -1 0 103.5)" xlink:href="#prefix__d"></use>
+</svg>

@@ -355,7 +355,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "https://faz.net/",
-    "image": "/faz.svg",
+    "image": "/logos/faz.svg",
     "code": "faz",
     "codierung": {
       "1": 5,
@@ -511,7 +511,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "",
     "url": "https://handelsblatt.com/",
-    "image": "/logos/",
+    "image": "/logos/handelsblatt.svg",
     "code": "hb",
     "codierung": {
       "1": 5,
@@ -628,7 +628,7 @@
     "mediumArt": "website",
     "beschreibung": "",
     "url": "https://correctiv.org/",
-    "image": "/logos/",
+    "image": "/logos/correctiv.svg",
     "code": "correctiv",
     "codierung": {
       "1": 5,
@@ -706,7 +706,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/",
+    "image": "/logos/plan-b.png",
     "code": "planb",
     "codierung": {
       "1": 5,
@@ -862,7 +862,7 @@
     "mediumArt": "podcast",
     "beschreibung": "",
     "url": "https://jungundnaiv.de/",
-    "image": "/logos/",
+    "image": "/logos/jungnaiv.png",
     "code": "jungnaiv",
     "codierung": {
       "1": 1,
@@ -901,7 +901,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "",
     "url": "",
-    "image": "/logos/",
+    "image": "/logos/brisant.svg",
     "code": "brisant",
     "codierung": {
       "1": 1,
@@ -940,7 +940,7 @@
     "mediumArt": "radio",
     "beschreibung": "",
     "url": "https://104.6rtl.com/",
-    "image": "/logos/",
+    "image": "/logos/rtl.svg",
     "code": "hundertviersechs",
     "codierung": {
       "1": 1,
@@ -979,7 +979,7 @@
     "mediumArt": "website",
     "beschreibung": "",
     "url": "https://krautreporter.de/",
-    "image": "/logos/",
+    "image": "/logos/kraut.svg",
     "code": "kraut",
     "codierung": {
       "1": 2,
@@ -1018,7 +1018,7 @@
     "mediumArt": "youtube",
     "beschreibung": "",
     "url": "https:/funk.net/channel/beyond-gossip-12324",
-    "image": "/logos/",
+    "image": "/logos/beyondgossip.jpeg",
     "code": "beyond",
     "codierung": {
       "1": 5,
@@ -1057,7 +1057,7 @@
     "mediumArt": "website",
     "beschreibung": "",
     "url": "https://perspective-daily.de/",
-    "image": "/logos/",
+    "image": "/logos/pd.svg",
     "code": "perpective",
     "codierung": {
       "1": 2,
@@ -1096,7 +1096,7 @@
     "mediumArt": "zeitschrift",
     "beschreibung": "",
     "url": "https://missy-magazine.de/",
-    "image": "/logos/",
+    "image": "/logos/missy.svg",
     "code": "missy",
     "codierung": {
       "1": 4,
@@ -1135,7 +1135,7 @@
     "mediumArt": "podcast",
     "beschreibung": "",
     "url": "https://apokalypse-und-filterkaffee.io/",
-    "image": "/logos/",
+    "image": "/logos/apofilter.jpeg",
     "code": "apokalypse",
     "codierung": {
       "1": 1,
