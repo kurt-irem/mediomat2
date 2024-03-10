@@ -23,7 +23,7 @@ export default function Befragung() {
     if (currentQuestionIndex + 1 < totalQuestionCount) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
-      router.push("/ergebnis?answer=" + JSON.stringify(updateQuestValue));
+      router.push("/gewichtung?answer=" + JSON.stringify(updateQuestValue));
     }
   };
 
