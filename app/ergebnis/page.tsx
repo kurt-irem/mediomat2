@@ -41,7 +41,7 @@ const Ergebnis = () => {
         // @ts-ignore
         return a[1] - b[1]
     })
-
+console.log(sorted)
     let winners = sorted.slice(0, 3)
     const favoriteCards: any[] = []
     favoriteCards.push(test.find((e, i) => {
