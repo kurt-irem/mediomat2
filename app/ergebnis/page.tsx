@@ -31,7 +31,7 @@ const Ergebnis = () => {
         mediaResults[medium.code] = 0
         for (let attr in medium.codierung) {
             // @ts-ignore
-            mediaResults[medium.code] += Math.pow(Math.abs(answers[attr - 1].value - medium.codierung[attr]), answers[attr-1].weight)
+            mediaResults[medium.code] += Math.pow(answers[attr - 1].value - medium.codierung[attr], 2) * answers[attr-1].weight
         }
         // @ts-ignore
         mediaResults[medium.code] = Math.sqrt(mediaResults[medium.code])
