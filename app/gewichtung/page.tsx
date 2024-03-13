@@ -35,6 +35,7 @@ export default function Gewichtung() {
         output[question].weight = 2
     }
 
+
     return (
         <div className="px-10 h-screen bg-gray-100 text-dark pt-[104px]">
             <div className="flex flex-col gap-6 mb-10">
@@ -54,14 +55,14 @@ export default function Gewichtung() {
                     </div>
                 ))}
                 <div className="flex flex-col items-center text-center">
-                <button onClick={() => router.push("/ergebnis?answer=" + JSON.stringify(output))}
-                        className={`${
-                            animate ? "animate__animated animate__headShake" : ""
-                        } mt-28 px-6 py-4 bg-blue text-white font-light text-2xl rounded-lg  shadow-md flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:shadow-2xl hover:scale-105 ease-in`}
-                >
-                    <i className="pi pi-arrow-right" style={{fontSize: "1rem"}}/>
-                    Zeige mir das Ergebnis!
-                </button>
+                    <button onClick={() => router.push("/ergebnis?answer=" + JSON.stringify(output))}
+                            className={`${
+                                animate ? "animate__animated animate__headShake" : ""
+                            } mt-28 px-6 py-4 bg-blue text-white font-light text-2xl rounded-lg  shadow-md flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:shadow-2xl hover:scale-105 ease-in`}
+                    >
+                        <i className="pi pi-arrow-right" style={{fontSize: "1rem"}}/>
+                        Zeige mir das Ergebnis!
+                    </button>
                     <br/><br/>
                 </div>
             </div>
