@@ -12,11 +12,15 @@ export default function GewichtungsCard({
 
     function mark() {
         if (bar.current != null) {
-            bar.current.classList.remove('bg-white')
-            bar.current.classList.add('bg-blue', 'text-white')
+            //if (bar.current.classList.contains('bg-white'))
+           // bar.current.classList.remove('bg-white')
+           // bar.current.classList.add('bg-blue', 'text-white')
+            bar.current.classList.toggle('bg-white')
+            bar.current.classList.toggle('bg-blue')
+            bar.current.classList.toggle('text-white')
         }
         if (marker.current != null) {
-            marker.current.classList.remove('opacity-0')
+            marker.current.classList.toggle('opacity-0')
         }
     }
 

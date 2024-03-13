@@ -32,7 +32,8 @@ export default function Gewichtung() {
     }
 
     function doubleWeight(question: number) {
-        output[question].weight = 2
+        output[question].weight = output[question].weight == 1 ? 2 : 1
+        console.log(output)
     }
 
 
