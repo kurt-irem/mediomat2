@@ -7,8 +7,8 @@ export default function GewichtungsCard({
     frage?: string;
 }) {
 
-    let bar: React.RefObject<object> = React.createRef()
-    let marker: React.RefObject<object> = React.createRef()
+    let bar: React.RefObject<HTMLDivElement> = React.createRef()
+    let marker: React.RefObject<HTMLParagraphElement> = React.createRef()
 
     function mark() {
         if (bar.current != null) {
