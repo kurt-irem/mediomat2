@@ -587,7 +587,7 @@
   {
     "name": "Atlas",
     "mediumArt": "youtube",
-    "beschreibung": "",
+    "beschreibung": "Atlas ist ein wöchentliches Videoformat, das von Funk produziert wird. In dem Medium geht es um aktuelle Themen aus der ganzen Welt. Die beiden Hosts Tessniem Kadiri und Don Pablo Mulemba informieren über internationale Geschehnisse und erklären aktuelle Probleme und Konflikte. Das Videoformat kann man auf Youtube, im Fernsehen und in der Funk-Mediathek schauen. Für das Anschauen eines Beitrags benötigt man durchschnittlich 10 - 20 Minuten. In dem Videoformat geht es meistens um Politik und sie sprechen oft mit Menschen vor Ort, um aus erster Hand berichten zu können.",
     "url": "",
     "image": "/logos/",
     "code": "atlas",
@@ -626,7 +626,7 @@
   {
     "name": "Correctiv",
     "mediumArt": "website",
-    "beschreibung": "",
+    "beschreibung": "Correctiv ist eine gemeinnützige Redaktion, die Korruption und unethisches Verhalten aufdecken will. Auf deren Youtube-Kanal haben sie Videoformate unterschiedlicher Länge von kurzen Erklärvideos zu längeren Interviews. Mit den Videos wollen sie Falschinformationen aufdecken, über gezielte Desinformation informieren und Interviews über politische Themen haben. Der Kanal folgt keinem festen Zeitplan beim Hochladen von Videos. Das Medium informiert am häufigsten über Politik.",
     "url": "https://correctiv.org/",
     "image": "/logos/correctiv.svg",
     "code": "correctiv",
@@ -665,7 +665,7 @@
   {
     "name": "Podcast vom Tagesspiegel",
     "mediumArt": "podcast",
-    "beschreibung": "",
+    "beschreibung": "Der Tagesspiegel Podcast kann man auf der Tagesspiegel-Website, auf Spotify und auf Apple Podcasts hören. Für das Hören eines Beitrags braucht man durchschnittlich 20 Minuten bis eine Stunde. Die Podcasts der Tagesspiegel-Redaktion decken einen großen Bereich von Klimapolitik zu Gynäkologie bis True Crime ab. Sie informieren über allgemeine Geschehnisse, oft mit dem Schwerpunkt auf Berlin.",
     "url": "",
     "image": "/logos/",
     "code": "tgpod",
@@ -704,7 +704,7 @@
   {
     "name": "Plan B",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
+    "beschreibung": "Plan B ist ein Videoformat, das jeden Samstag um 17:35 im ZDF ausgestrahlt wird. Die Dokumentationsreihe berichtet über Geschichten aus dem Leben und zeigt Alternativen für gesellschaftliche Probleme. Plan B kann man im Fernsehen und in der ZDF-Mediathek anschauen. Sie informieren über die Umwelt und die Digitalisierung. Für das Anschauen eines Beitrags benötigt man durchschnittlich eine halbe Stunde.",
     "url": "",
     "image": "/logos/plan-b.png",
     "code": "planb",
@@ -743,7 +743,7 @@
   {
     "name": "Arte Europa - die Woche",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
+    "beschreibung": "ARTE Europa – Die Woche befasst sich jeden Donnerstag mit Ereignissen aus Europa. Das Videomagazin wird in vier Sprachen moderiert, und zwar auf Deutsch, Englisch, Französisch und Spanisch und man kann es im Fernsehen, in der Arte Mediathek und auf deren Youtube-Kanal ansehen. Die Beiträge dauern durchschnittlich eine viertel Stunde und in den Videos handelt es von Politik, der Umwelt und der Digitalisierung in Europa.",
     "url": "",
     "image": "/logos/",
     "code": "artewoche",
@@ -782,7 +782,7 @@
   {
     "name": "Nano",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
+    "beschreibung": "Das Wissensmagazin Nano wird montags bis freitags von 18:30 - 19 Uhr auf 3sat ausgestrahlt und um 7 Uhr und 9:45 Uhr nochmals wiederholt. Das Videoformat kann man im Fernsehen, in der 3sat-Mediathek und in der ARD-Mediathek sehen. Nano berichtet über Veränderungen der Umwelt, die Welt der Wissenschaft, Digitalisierung und Politik und liefert tagesaktuell wissenschaftliche Hintergründe zu den großen Fragen unserer Gesellschaft.",
     "url": "",
     "image": "/logos/",
     "code": "nano",
