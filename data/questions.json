@@ -5,7 +5,7 @@
             "fragenliste": [
                 {
                     "frage": "Ich möchte Nachrichten auf mehreren Plattformen konsumieren können",
-                    "beschreibung": "Hier meinen wir Formate wie Radio-sendungen, Podcasts, etc… Was hier nicht reinfällt sind TV-Sendungen, Video-Interview-Formate auf YouTube etc.",
+                    "beschreibung": "Das Medium ist auf mehreren Plattformen und oder Kanälen zu finden zum Beispiel in der Mediathek, auf Youtube, bei Spotify, bei Instagram und TickTock etc.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -31,7 +31,7 @@
                 },
                 {
                     "frage": "Ich möchte Nachrichten vor allem online konsumieren",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Hiermit meinen wir Medien, deren ganzes Angebot (ob Text, Video oder Audio) Online Verfügbar sind.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -57,7 +57,7 @@
                 },
                 {
                     "frage": "Ich möchte Nachrichten vor allem in gedruckter Form konsumieren",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -83,7 +83,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten am liebsten in Form von Text",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -109,7 +109,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten am liebsten in Form von Audio",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Hier meinen wir Formate wie Radio-sendungen, Podcasts, etc… Was hier nicht reinfällt sind TV-Sendungen, Video-Interview-Formate auf YouTube etc.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -135,7 +135,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten am liebsten in Form von Video",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -161,7 +161,7 @@
                 },
                 {
                     "frage": "Ich bevorzuge Themen eher ..",
-                    "beschreibung": "1=kurz zusammengefasst, 5=ausführlich beleuchtet",
+                    "beschreibung": "Die Frage ist: willst du deine Nachrichten ‘kurz und knackig’ aufbereitet oder lieber ausführlicher und dafür auch länger.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -213,7 +213,7 @@
                 },
                 {
                     "frage": "Ich bin bereit für Journalismus zu bezahlen",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -265,7 +265,7 @@
                 },
                 {
                     "frage": "Mir ist eine flache Hierarchie in der Redaktion wichtig",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -291,7 +291,7 @@
                 },
                 {
                     "frage": "Ich möchte wissen, von wem und aus welcher Perspektive die Artikel geschrieben werden",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -317,6 +317,7 @@
                 },
                 {
                     "frage": "Ich will immer über lokale Geschehnisse informiert sein",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -342,7 +343,7 @@
                 },
                 {
                     "frage": "Ich will immer über internationale Geschehnisse informiert sein",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -368,7 +369,7 @@
                 },
                 {
                     "frage": "Ich will immer über popkulturelle Ereignisse informiert sein",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Suchst du speziell nach Medien, die sich mit Musik-, Mode- und Lifestyle-Themen und damit verbundenen Persönlichkeiten und Geschehnissen befassen?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -394,7 +395,7 @@
                 },
                 {
                     "frage": "Ich will immer über die Wirtschafts- und Finanzwelt informiert sein",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Möchtest du wissen, wie es gerade um die Finanzmärkte, Geldpolitik und Unternehmen und ihre wirtschaftliche Entwicklung steht?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -420,7 +421,7 @@
                 },
                 {
                     "frage": "Ich will immer über Umwelt und Klimapolitik informiert sein",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Interessierst du dich für neue politische Entwicklungen im Klimaschutz (und Klimaaktivismus)?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -446,7 +447,7 @@
                 },
                 {
                     "frage": "Ich will immer über Netzpolitik und Digitalisierung informiert sein",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Interessierst du dich für politische Entscheidungen, die sich mit Fragen rund um das Internet und der Einführung neuer digitaler Technologien befassen?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -472,7 +473,7 @@
                 },
                 {
                     "frage": "Ich will immer über die politische Lage informiert sein",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Sind politische Themen wie Wahlen, internationale Beziehungen und politische Entscheidungen interessant für dich?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -498,7 +499,7 @@
                 },
                 {
                     "frage": "Ich will immer über Sport informiert sein",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Möchtest du über wichtige Veranstaltungen in unterschiedlichen Sportarten informiert sein und interessierst dich für Strategien, Taktiken und Interviews mit Sportler*innen?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -529,7 +530,7 @@
             "fragenliste": [
                 {
                     "frage": "Ich bekomme meine Nachrichten lieber ..",
-                    "beschreibung": "Beschreibung zur Frage 3",
+                    "beschreibung": "Ist dir eine kurze Übersicht der relevanten Informationen oder eher eine gründliche Einbettung in den Gesamtkontext mit Hintergrundinformationen und einem detaillierten Beitrag wichtig?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -555,7 +556,7 @@
                 },
                 {
                     "frage": "Mir ist wichtig, dass Themen inhaltlich kritisch diskutiert werden",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Ist es dir wichtig, dass Bewertungen, Widersprüche und Zusammenhänge immer kritisch hinterfragt werden?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -581,7 +582,7 @@
                 },
                 {
                     "frage": "Mir ist wichtig, dass in den Beiträgen unterschiedliche Menschen und diverse Stimmen abgebildet werden oder zu Wort kommen",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Möchtest du, dass Themen aus möglichst vielfältigen Perspektiven im Hinblick auf Erfahrungen, Meinungen und Hintergründe beleuchtet werden?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -607,7 +608,7 @@
                 },
                 {
                     "frage": "Ich würde gerne auch lösungsorientierte Nachrichten konsumieren",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Ist dir eine regelmäßig erscheinende Präsentation innovativer und lösungsorientierter Ansätze in der Berichterstattung wichtig?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -633,7 +634,7 @@
                 },
                 {
                     "frage": "Ich möchte Nachrichten konsumieren, die mich gut fühlen lassen",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Ist es dir wichtig, dass Medien sich in der Berichterstattung regelmäßig speziell auf positive Entwicklungen fokussieren?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -659,7 +660,7 @@
                 },
                 {
                     "frage": "Mir ist eine gute Veranschaulichung wichtig, z.B. in Form von Bildern, Grafiken oder Videos",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -685,7 +686,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten lieber, wenn sie auch unterhaltsam sind",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Ist dir eine unterhaltsame Darstellung des Nachrichteninhalts durch kleine Anekdoten und/oder humorvoll gestaltete Inhalte wichtig?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -711,7 +712,7 @@
                 },
                 {
                     "frage": "Mir ist wichtig, dass in den Beiträgen gegendert wird",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Ist es dir wichtig, dass Medien, die du konsumierst, gendergerechte Formulierungen anwenden?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -737,7 +738,7 @@
                 },
                 {
                     "frage": "Eine leichte Verständlichkeit ist mir wichtig (keine Fremd- oder Fachwörter)",
-                    "beschreibung": "1=stimme gar nicht zu, 5=stimme voll zu",
+                    "beschreibung": "Legst du Wert auf leichte Sprache und eine bewusste Umschreibung von Fachbegriffen in Beiträgen?",
                     "bewertung": [
                         {
                             "wert": 1,
