@@ -119,7 +119,7 @@
   {
     "name": "Berliner Zeitung",
     "mediumArt": "zeitung",
-    "beschreibung": "",
+    "beschreibung": "Die Berliner Zeitung ist die erste deutsche Tageszeitung, die nach dem Zweiten Weltkrieg gegründet wurde. Sie erschien seit 1945 in Berlin und bis zur Wiedervereinigung in der DDR. Heute hat sie die zweithöchste Auflage unter den Abonnentenzeitungen in Berlin und wird vor allem im Osten der Stadt gelesen. Die Länge der Beiträge variiert. Die meisten Artikel lassen sich in 5-10 Minuten lesen. Einige Artikel stehen kostenfrei auf der Website zur Verfügung und es gibt verschiedene Abo-Optionen, die von 2 Euro im Monat für alle Online-Beiträge bis 69,99 Euro im Monat für alle Print- und Digitalangebote reichen. Die Berliner Zeitung bespielt auch mehrere Social Media Kanäle.",
     "url": "https://berliner-zeitung.de/",
     "image": "/logos/bz.svg",
     "code": "bz",
@@ -158,7 +158,7 @@
   {
     "name": "Klasse gegen Klasse",
     "mediumArt": "website",
-    "beschreibung": "",
+    "beschreibung": "Klasse Gegen Klasse ist die aktualisierte Nachrichtenseite von verschiedenen trotzkistischen Organisationen in Deutschland. Die Themen werden aus einer marxistisch, revolutionären, queeren und migrantischen Perspektive beleuchtet. Korrespondent:innen aus 12 Ländern berichten über Politik in Deutschland und international, über die Kämpfe der Arbeiter:innen und Jugendlichen rund um die Welt bis hin zu Themen des Alltags und der Kultur. Klasse Gegen Klasse legt großen Wert auf Internationalismus und ist Teil eines Zeitungsnetzwerk aus zwölf elektronischen Tageszeitungen in acht Sprachen. Die Länge der Beiträge variiert. Die meisten Artikel lassen sich in 5-10 Minuten lesen. Das Angebot steht komplett kostenlos auf ihrer Website zur Verfügung. Man kann per Paypal oder Überweisung spenden. Klasse gegen Klasse bespielt mehrere Social Media Kanäle.",
     "url": "https://klassegegenklasse.org/",
     "image": "/logos/kgk.png",
     "code": "kgk",
@@ -197,7 +197,7 @@
   {
     "name": "nd",
     "mediumArt": "zeitung",
-    "beschreibung": "",
+    "beschreibung": "nd ist eine überregionale Tageszeitung, die vor allem in Ostdeutschland gelesen wird und sich als “sozialistische Tageszeitung” versteht. Sie hat derzeit die achtgrößte Auflage der überregionalen Tageszeitungen in Deutschland. Sie wurde 1946 unter dem Namen Neues Deutschland als Zentralorgan der SED gegründet und erschien bis zur Wiedervereinigung in der DDR. Seit 2022 hat die Zeitung die Rechtsform einer Genossenschaft. Das nd steht politisch der Partei Die Linke nahe, agiert aber unabhängig und lässt auch Stimmen außerhalb der parlamentarischen Linken zu Wort kommen. Die Länge der Beiträge variiert. Die meisten Artikel lassen sich in 5-10 Minuten lesen. Einige Beiträge stehen Online kostenfrei zur Verfügung, ein ePaper-Abo kostet zwischen 15 und 30 Euro und ein Print-Abo kostet zwischen 45 und 70 Euro (beides mit Solipreis-Option).",
     "url": "https://nd-aktuell.de/",
     "image": "/logos/nd.svg",
     "code": "nd",
@@ -236,7 +236,7 @@
   {
     "name": "Junge Welt",
     "mediumArt": "zeitung",
-    "beschreibung": "",
+    "beschreibung": "Die Junge Welt ist eine überregionale, marxistisch-orientierte Tageszeitung. Sie war von 1947-1990 das Organ des Zentralrats des sozialistischen Jugendverbands der DDR. Heute versteht sie sich als antikapitalistisch, antiimperialistisch und antifaschistisch. Das Bundesamt für Verfassungsschutz beobachtet die Zeitung und sieht in ihr das „bedeutendste und auflagenstärkste Printmedium im Linksextremismus“.Die Beitragslänge variiert. Die meisten Artikel lassen sich in 5-10 Minuten lesen.Einige Artikel stehen kostenfrei auf der Website zur Verfügung. Es gibt verschiedene Abo-Optionen für alle Online-Artikel, ePaper und Print-Ausgabe zwischen 25,70 und 50,70 (mit ermäßigten oder Soli-Versionen).",
     "url": "https://jungewelt.de/",
     "image": "/logos/jungewelt.svg",
     "code": "jungewelt",
@@ -275,7 +275,7 @@
   {
     "name": "taz",
     "mediumArt": "zeitung",
-    "beschreibung": "",
+    "beschreibung": "Die taz ist eine überregionale Tageszeitung mit Sitz in Berlin, die sich mit ihrer Gründung 1978 der Gegenöffentlichkeit verpflichtet hat. Sie hat die sechsthöchste Auflage unter den überregionalen Tageszeitung und wird als grün-links und linksalternativ beschrieben. Die Beitragslänge variiert. Die meisten Artikel lassen sich in 5-10 Minuten lesen. Einige Artikel stehen kostenfrei auf der Website zur Verfügung. Die Abo-Optionen für ePaper- und Printausgaben liegen zwischen 21,40 und 64,90 im Monat. Alle Abos gibt es im Soli-Modell und es gibt auch eine Wochen-taz, die jeden Samstag erscheint. Die taz bespielt auch mehrere Social Media Kanäle.",
     "url": "https://taz.de/",
     "image": "/logos/taz.svg",
     "code": "taz",
@@ -314,7 +314,7 @@
   {
     "name": "Tagesspiegel",
     "mediumArt": "zeitung",
-    "beschreibung": "",
+    "beschreibung": "Der Tagesspiegel ist die auflagenstärkste Abonnementzeitung in Berlin und wird vor allem in den westlichen Bezirken gelesen. Die Zeitung wurde 1945 im amerikanischen Sektor Berlins gegründet und verfolgt seit 2001 den Anspruch, eine überregionale Tageszeitung zu sein. Sie enthält in Kooperation mit dem Handelsblatt ein umfangreiches Wirtschaftsressort. Die Beitragslänge variiert. Die meisten Artikel lassen sich in 5-10 Minuten lesen. Einige Artikel stehen kostenfrei auf der Website zur Verfügung. Das Abo für alle Online-Inhalte kostet 14,99 und das für die gedruckte Zeitung 68,99 im Monat. Der Tagesspiegel bespielt auch mehrere Social Media Kanäle.",
     "url": "https://tagesspiegel.de/",
     "image": "/logos/ts.svg",
     "code": "tagesspiegel",
@@ -353,7 +353,7 @@
   {
     "name": "Frankfurter Allgemeine",
     "mediumArt": "zeitung",
-    "beschreibung": "",
+    "beschreibung": "Die Frankfurter Allgemeine Zeitung ist die überregionale Tageszeitung mit der dritthöchsten Auflage in Deutschland. Sie wird als bürgerlich-konservativ beschrieben. Mit über 90 In- und Auslandlandskorrespondent:innen hat sie eines der größten Korrespondent:innen-Netzwerke der Welt. Sie wurde 1949 von einem Zusammenschluss von Unternehmern gegründet, die ihre Interessen in der Öffentlichkeit stärker vertreten sehen wollten. Die Beitragslänge variiert. Die meisten Artikel lassen sich in 5-10 Minuten lesen. Einige Artikel stehen kostenfrei auf der Website zur Verfügung. Die Preise für Abos bewegen sich zwischen 11,80 für alle Online-Artikel und 77,90 für die Printausgabe im Monat. Die FAZ bespielt auch mehrere Social Media Kanäle.",
     "url": "https://faz.net/",
     "image": "/logos/faz.svg",
     "code": "faz",
@@ -588,8 +588,8 @@
     "name": "Atlas",
     "mediumArt": "youtube",
     "beschreibung": "Atlas ist ein wöchentliches Videoformat, das von Funk produziert wird. In dem Medium geht es um aktuelle Themen aus der ganzen Welt. Die beiden Hosts Tessniem Kadiri und Don Pablo Mulemba informieren über internationale Geschehnisse und erklären aktuelle Probleme und Konflikte. Das Videoformat kann man auf Youtube, im Fernsehen und in der Funk-Mediathek schauen. Für das Anschauen eines Beitrags benötigt man durchschnittlich 10 - 20 Minuten. In dem Videoformat geht es meistens um Politik und sie sprechen oft mit Menschen vor Ort, um aus erster Hand berichten zu können.",
-    "url": "",
-    "image": "/logos/",
+    "url": "https://www.youtube.com/channel/UCLtOrGKZ1t_qhHNG14RFZ0Q",
+    "image": "/logos/atlas.png",
     "code": "atlas",
     "codierung": {
       "1": 5,
@@ -625,9 +625,9 @@
   },
   {
     "name": "Correctiv",
-    "mediumArt": "website",
+    "mediumArt": "youtube",
     "beschreibung": "Correctiv ist eine gemeinnützige Redaktion, die Korruption und unethisches Verhalten aufdecken will. Auf deren Youtube-Kanal haben sie Videoformate unterschiedlicher Länge von kurzen Erklärvideos zu längeren Interviews. Mit den Videos wollen sie Falschinformationen aufdecken, über gezielte Desinformation informieren und Interviews über politische Themen haben. Der Kanal folgt keinem festen Zeitplan beim Hochladen von Videos. Das Medium informiert am häufigsten über Politik.",
-    "url": "https://correctiv.org/",
+    "url": "https://www.youtube.com/@correctiv_org",
     "image": "/logos/correctiv.svg",
     "code": "correctiv",
     "codierung": {
@@ -665,9 +665,9 @@
   {
     "name": "Podcast vom Tagesspiegel",
     "mediumArt": "podcast",
-    "beschreibung": "Der Tagesspiegel Podcast kann man auf der Tagesspiegel-Website, auf Spotify und auf Apple Podcasts hören. Für das Hören eines Beitrags braucht man durchschnittlich 20 Minuten bis eine Stunde. Die Podcasts der Tagesspiegel-Redaktion decken einen großen Bereich von Klimapolitik zu Gynäkologie bis True Crime ab. Sie informieren über allgemeine Geschehnisse, oft mit dem Schwerpunkt auf Berlin.",
-    "url": "",
-    "image": "/logos/",
+    "beschreibung": "Den Tagesspiegel Podcast kann man auf der Tagesspiegel-Website, auf Spotify und auf Apple Podcasts hören. Für das Hören eines Beitrags braucht man durchschnittlich 20 Minuten bis eine Stunde. Die Podcasts der Tagesspiegel-Redaktion decken einen großen Bereich von Klimapolitik zu Gynäkologie bis True Crime ab. Sie informieren über allgemeine Geschehnisse, oft mit dem Schwerpunkt auf Berlin.",
+    "url": "https://www.tagesspiegel.de/true-crime-gyncast-eine-runde-berlin-das-sind-die-podcasts-vom-tagesspiegel-8660119.html",
+    "image": "/logos/ts.svg",
     "code": "tgpod",
     "codierung": {
       "1": 5,
@@ -705,7 +705,7 @@
     "name": "Plan B",
     "mediumArt": "fernsehen",
     "beschreibung": "Plan B ist ein Videoformat, das jeden Samstag um 17:35 im ZDF ausgestrahlt wird. Die Dokumentationsreihe berichtet über Geschichten aus dem Leben und zeigt Alternativen für gesellschaftliche Probleme. Plan B kann man im Fernsehen und in der ZDF-Mediathek anschauen. Sie informieren über die Umwelt und die Digitalisierung. Für das Anschauen eines Beitrags benötigt man durchschnittlich eine halbe Stunde.",
-    "url": "",
+    "url": "https://www.zdf.de/gesellschaft/plan-b",
     "image": "/logos/plan-b.png",
     "code": "planb",
     "codierung": {
@@ -744,8 +744,8 @@
     "name": "Arte Europa - die Woche",
     "mediumArt": "fernsehen",
     "beschreibung": "ARTE Europa – Die Woche befasst sich jeden Donnerstag mit Ereignissen aus Europa. Das Videomagazin wird in vier Sprachen moderiert, und zwar auf Deutsch, Englisch, Französisch und Spanisch und man kann es im Fernsehen, in der Arte Mediathek und auf deren Youtube-Kanal ansehen. Die Beiträge dauern durchschnittlich eine viertel Stunde und in den Videos handelt es von Politik, der Umwelt und der Digitalisierung in Europa.",
-    "url": "",
-    "image": "/logos/",
+    "url": "https://www.arte.tv/de/videos/RC-023198/arte-europa-die-woche/",
+    "image": "/logos/arte.svg",
     "code": "artewoche",
     "codierung": {
       "1": 5,
@@ -783,7 +783,7 @@
     "name": "Nano",
     "mediumArt": "fernsehen",
     "beschreibung": "Das Wissensmagazin Nano wird montags bis freitags von 18:30 - 19 Uhr auf 3sat ausgestrahlt und um 7 Uhr und 9:45 Uhr nochmals wiederholt. Das Videoformat kann man im Fernsehen, in der 3sat-Mediathek und in der ARD-Mediathek sehen. Nano berichtet über Veränderungen der Umwelt, die Welt der Wissenschaft, Digitalisierung und Politik und liefert tagesaktuell wissenschaftliche Hintergründe zu den großen Fragen unserer Gesellschaft.",
-    "url": "",
+    "url": "https://www.3sat.de/wissen/nano",
     "image": "/logos/",
     "code": "nano",
     "codierung": {
