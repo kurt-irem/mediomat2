@@ -1016,7 +1016,7 @@
   {
     "name": "Beyond Gossip",
     "mediumArt": "youtube",
-    "beschreibung": "",
+    "beschreibung": "Beyond Gossip ist ein kostenloses Angebot von funk und gehört damit zum öffentlich-rechtlichen Rundfunk. Die Inhalte werden auf verschiedenen Plattformen wie TikTok, Instagram, YouTube und der eigenen Website bereitgestellt. Die Plattform konzentriert sich darauf, die subtileren Aspekte hinter der Popkultur-Gerüchteküche in unter 5 Minuten zu beleuchten. In einer Welt, die von der Schnelllebigkeit der sozialen Medien geprägt ist, entstehen oft Spekulationen und Vermutungen, ohne dass die Fakten überprüft oder hinterfragt werden. Beyond Gossip hat es sich zur Mission gemacht, diesen scheinbaren \"Fakten\" auf den Grund zu gehen.",
     "url": "https:/funk.net/channel/beyond-gossip-12324",
     "image": "/logos/beyondgossip.jpeg",
     "code": "beyond",
@@ -1212,7 +1212,7 @@
   {
     "name": "Was jetzt?",
     "mediumArt": "podcast",
-    "beschreibung": "",
+    "beschreibung": "Unter der Woche erhältst du hier zwei Mal pro Tag ein Update über die neuesten Nachrichten in den Bereichen Politik, Umwelt und internationales Geschehen. Am Wochenende wird eine Folge am Tag veröffentlicht. Die Folgen dauern im Schnitt zehn Minuten. Jeden Samstag gibt es Spezialfolgen, in denen ein einzelnes Thema für eine halbe bis Dreiviertelstunde unter Betrachtung verschiedener Perspektiven aufgearbeitet wird. Der Podcast wird von ZEIT Online betrieben und ist überall zu finden, wo es Podcasts gibt. Eine Live-Show und ein Newsletter ergänzen das Angebot zusätzlich.",
     "url": "https://zeit.de/serie/was-jetzt",
     "image": "/logos/",
     "code": "wasjetzt",
@@ -1251,7 +1251,7 @@
   {
     "name": "RBB",
     "mediumArt": "app",
-    "beschreibung": "",
+    "beschreibung": "In der App des Rundfunk Berlin Brandenburg ist es möglich, den Fokus der Nachrichten eigens festzulegen. Man kann sich zwischen Berlin und Brandenburg entscheiden, muss aber nicht. Zusätzlich kann man zwischen verschiedenen Ressorts auswählen, deren Beiträge man dann vermehrt angezeigt bekommt. Über Push-Benachrichtigungen bleiben die Nutzer:innen in Echtzeit informiert. Viele der Beiträge sind auch als Video oder Audio verfügbar, zum Lesen werden meist nicht mehr als ein paar Minuten benötigt.",
     "url": "",
     "image": "/logos/",
     "code": "rbbapp",
@@ -1290,7 +1290,7 @@
   {
     "name": "Correctiv",
     "mediumArt": "website",
-    "beschreibung": "",
+    "beschreibung": "CORRECTIV ist ein gemeinwohlorientiertes Medienhaus, das Demokratie stärkt. Als vielfach ausgezeichnete Redaktion stehen sie für investigativen Journalismus. Sie lösen öffentliche Debatten aus, arbeiten mit Bürgerinnen und Bürgern an ihren Recherchen und fördern die Gesellschaft mit unseren Bildungsprogrammen. Zentrale Ziele sind, Machtmissbrauch aufzudecken und ein Zeichen gegen Rechtsextremismus zu setzen. Die Recherchen werden durch private Spenden und unabhängige Institutionen oder Stiftungen finanziert, damit sie nicht durch politische Entscheider, Werbung oder Quoten beeinflusst werden.",
     "url": "https://correctiv.org",
     "image": "/logos/",
     "code": "corrweb",
