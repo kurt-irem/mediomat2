@@ -20,7 +20,7 @@ export default function Home() {
         <h1 className="text-[96px] font-semibold text-dark">
           {textData.anwendungsName}
         </h1>
-        <p className="text-dark mt-16 max-w-[800px] font-normal text-xl">
+        <p className="text-dark mt-16 max-w-[800px] font-normal text-xl"  style={{ whiteSpace: "pre-wrap" }}>
           {textData.ersteInformation}
         </p>
         <button
@@ -39,19 +39,19 @@ export default function Home() {
           <h2 className="font-semibold text-3xl">
             {textData.wasIstWahlOMatHeader}
           </h2>
-          <p>{textData.wasIstWahlOMatSubtext}</p>
+          <p style={{ whiteSpace: "pre-wrap" }}>{textData.wasIstWahlOMatSubtext}</p>
         </div>
 
         <div className="flex flex-col gap-6 max-w-[800px]">
           <h2 className="font-semibold text-3xl">{textData.resultsHeader}</h2>
-          <p>{textData.resultsSubtext}</p>
+          <p style={{ whiteSpace: "pre-wrap" }}>{textData.resultsSubtext}</p>
         </div>
 
         <div className="flex flex-col gap-6 max-w-[800px]">
           <h2 className="font-semibold text-3xl">
             {textData.disclaimerHeader}
           </h2>
-          <p>{textData.disclaimerSubtext}</p>
+          <p style={{ whiteSpace: "pre-wrap" }}>{textData.disclaimerSubtext}</p>
         </div>
       </div>
     </div>
