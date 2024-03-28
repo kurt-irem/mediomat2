@@ -1,5 +1,6 @@
 {
     "startButton": "Start",
+    "medienuebersichtButton": "Zur Medienübersicht",
     "anwendungsName": "Medi-O-Mat",
     "ersteInformation": "Ein Frage-Antwort-Tool, das dir dabei helfen soll, dein perfektes Medien-Match zu finden. Dafür brauchst du nur 5-10 Minuten Zeit, um mithilfe unseres Fragebogens deine ganz persönlichen Mediennutzungspräferenzen zu reflektieren. Auf Basis dieser Daten berechnet der Mediomat, welche der Medien aus unserem Pool am besten zu dir passen könnten.",
     "wasIstWahlOMatHeader": "Was ist Medi-O-Mat",
