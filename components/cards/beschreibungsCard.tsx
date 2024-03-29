@@ -16,7 +16,7 @@ export default function BeschreibungsCard({
       } p-4 bg-white transition ease-in-out text-black max-w-[300px] h-min rounded-lg flex flex-col gap-4 shadow-lg`}
     >
       <span className="flex flex-row justify-between items-baseline">
-        <h3 className="font-medium text-xl text-gray-600">Beschreibung</h3>
+        <h3 className="font-medium text-xl text-dark">Beschreibung</h3>
         <button
           onClick={handleClick}
           type="button"
