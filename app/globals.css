@@ -3,20 +3,35 @@
 @tailwind utilities;
 
 .card > div {
-    scale: 1.1;
-    background-color: gold;
+  /* background-color: gold; */
+  border: 4px solid #ffe298;
+  /* scale: 1.1; */
 }
 
 .card > div:first-child {
-    scale: .9;
-    background-color: silver;
+  /* background-color: silver; */
+  border: 3px solid #c5dcff;
+  /* scale: 1; */
 }
 
 .card > div:last-child {
-    scale: .8;
-    background-color: saddlebrown;
+  /* background-color: saddlebrown; */
+  border: 2px solid #dba336;
+  /* scale: 1; */
 }
 
 .wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.gold-border {
+  border: 4px solid #ffe298;
+}
+
+.silver-border {
+  border: 3px solid #c5dcff;
+}
+
+.bronze-border {
+  border: 2px solid #dba336;
 }

@@ -30,9 +30,9 @@ export default function Home() {
           onClick={() => router.push("/befragung")}
           className={`${
             animate ? "animate__animated animate__headShake" : ""
-          } mt-28 px-6 py-4 bg-blue text-white font-light text-2xl rounded-lg  shadow-md flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:shadow-2xl hover:scale-105 ease-in uppercase`}
+          } mt-28 px-6 py-4 bg-[#C86BFA] text-white font-light text-2xl rounded-lg  shadow-md flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:shadow-2xl hover:scale-105 ease-in uppercase font-medium`}
         >
-          <i className="pi pi-arrow-right" style={{ fontSize: "1rem" }} />
+          <i className="pi pi-arrow-right" style={{ fontSize: "1.2rem" }} />
           {textData.startButton}
         </button>
         <button
