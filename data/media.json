@@ -1331,7 +1331,7 @@
     "mediumArt": "podcast",
     "beschreibung": "Die Tagesschau in 100 Sekunden ist ein Podcast bzw. Videopodcast der ARD, der mehrmals täglich aktualisiert wird und alle wichtigen Themen des Tages kurz (in 100 Sekunden) zusammenfasst. Anzuhören ist er auf allen gängigen Podcast-Plattformen, sowie online auch anzuschauen auf der Website der Tagesschau. ",
     "url": "https://www.tagesschau.de/multimedia/sendung/tagesschau_in_100_sekunden",
-    "image": "/logos/tagesschau2.svg",
+    "image": "/logos/tagesschau.svg",
     "code": "tspodcast",
     "codierung": {
       "1": 2,

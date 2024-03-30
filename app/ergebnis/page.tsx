@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import React, { Suspense } from "react";
 import textData from "@/data/texte.json";
 import useAnimationToggle from "@/hooks/useAnimationToggle";
+import { Container } from "postcss";
 
 interface Bewertung {
   wert: number;

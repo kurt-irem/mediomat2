@@ -2,6 +2,9 @@ import { useState } from "react";
 
 export default function VorschlagCard({
   name,
+  place,
+  dot,
+  word,
   beschreibung,
   image,
   url,
@@ -16,6 +19,9 @@ export default function VorschlagCard({
   mediumArt?: string;
   url?: string;
   name: string;
+  place: string;
+  dot: string;
+  word: string;
   beschreibung: string;
   image: string;
 }) {

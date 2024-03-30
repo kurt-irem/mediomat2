@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(https://fonts.googleapis.com/css?family=Mohave);
+
 .card > div {
   /* background-color: gold; */
   border: 4px solid #ffe298;
@@ -34,4 +36,86 @@
 
 .bronze-border {
   border: 2px solid #dba336;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(243 244 246);
+}
+
+#frageButton {
+  width: 20%;
+}
+
+#frageButton:active {
+  background-color: rgb(29 78 216);
+}
+
+#gFrage {
+  font-size: 100%;
+}
+
+#gWhole {
+  background-color: darkgray;
+}
+
+#gKarte {
+}
+#gKarte:hover {
+  color: rgb(18, 53, 147);
+}
+
+#gKat {
+  align-self: center;
+  width: 70%;
+}
+
+#gKat p:first-child {
+  font-weight: bold;
+}
+
+#gKat div {
+  margin-bottom: 0.25%;
+}
+
+#gPage h1 {
+  align-self: center;
+}
+
+#gPage h3 {
+  align-self: center;
+}
+
+#ePage h1 {
+  margin: 2%;
+}
+
+#ePage h2 {
+  margin: 5%;
+  width: 600px;
+}
+
+#eButton {
+  margin: 5%;
+}
+
+#one {
+  display: none;
+}
+
+#two {
+  display: none;
+}
+
+#three {
+  display: none;
+}
+
+#vCard button {
+  color: rgb(18, 53, 147);
+  font-size: 90%;
+  text-decoration: underline;
 }
