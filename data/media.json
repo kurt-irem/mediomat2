@@ -1172,7 +1172,7 @@
   {
     "name": "Inside PolitiX",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
+    "beschreibung": "Damit ihr politisch mitreden könnt! Unsere Hauptstadtkorrespondent*innen nehmen sich regelmäßig ein Thema der Zeit vor und tauchen ganz tief ein. Hier berichten sie von ihren Gesprächen hinter der Kamera und geben fundierte Prognosen.",
     "url": "https://zdf.de/politik/inside-politix",
     "image": "/logos/inside_politix.png",
     "code": "politx",
@@ -1603,7 +1603,7 @@
   {
     "name": "RTL Aktuell",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
+    "beschreibung": "RTL Aktuell ist eine tägliche Nachrichtensendung, die vom deutschen Fernsehsender RTL ausgestrahlt wird. Die Sendung wird seit 1988 ausgestrahlt und ist eine der führenden Nachrichtensendungen im deutschen Fernsehen. RTL Aktuell informiert die Zuschauer über aktuelle Ereignisse aus Deutschland und der Welt, darunter Politik, Wirtschaft, Gesellschaft, Sport und Unterhaltung. Die Sendung wird in der Regel am Abend ausgestrahlt und bietet einen Überblick über die wichtigsten Ereignisse des Tages.",
     "url": "https://plus.rtl.de/video-tv/shows/rtl-aktuell-177221",
     "image": "/logos/rtl2.svg",
     "code": "rtlaktuell",
@@ -1642,7 +1642,7 @@
   {
     "name": "RBB24 Abendschau",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
+    "beschreibung": "Die RBB24 Abendschau ist eine regionale Nachrichtensendung des Rundfunk Berlin-Brandenburg (RBB), einem öffentlich-rechtlichen Sender in Deutschland. Die Sendung liefert täglich aktuelle Nachrichten, Berichte und Hintergrundinformationen aus Berlin und Brandenburg. Sie wird in der Regel am späten Nachmittag oder frühen Abend ausgestrahlt und informiert die Zuschauer über lokale Ereignisse, Politik, Kultur, Wirtschaft, Sport und andere relevante Themen. Die RBB24 Abendschau ist eine wichtige Informationsquelle für die Bewohner der Region und bietet einen umfassenden Überblick über das Geschehen vor Ort.",
     "url": "https://www.rbb-online.de/abendschau/",
     "image": "https://www.rbb-online.de/content/dam/rbb/rbb/logos/rbb-fs.svg.svg/img.svg",
     "code": "rbb24",
