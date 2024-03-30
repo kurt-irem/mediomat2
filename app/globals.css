@@ -2,21 +2,102 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(https://fonts.googleapis.com/css?family=Mohave);
+
 .card > div {
     scale: 1.1;
-    background-color: gold;
+    border-color: #f7be2f;
+    border-width: 3px;
 }
 
 .card > div:first-child {
     scale: .9;
-    background-color: silver;
+    border-color: #adccfb;
 }
 
 .card > div:last-child {
     scale: .8;
-    background-color: saddlebrown;
+    border-color: #b05724f8;
 }
 
 .wrap {
     flex-wrap: wrap;
 }
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(243 244 246);
+}
+
+#frageButton{
+    width: 20%;
+    
+}
+
+#frageButton:active{
+    background-color: rgb(29 78 216);
+}
+
+#gFrage{
+    font-size: 100%;
+}
+
+#gWhole{
+    background-color: darkgray;
+}
+
+#gKarte{
+}
+#gKarte:hover{
+    color: rgb(18, 53, 147);
+}
+
+#gKat{
+    align-self: center;
+    width: 70%;
+}
+
+#gKat p:first-child{
+    font-weight: bold;
+}
+
+#gKat div{
+    margin-bottom: 0.25%;
+}
+
+#gPage h1{
+    align-self: center;
+}
+
+#gPage h3{
+    align-self: center;
+}
+
+#ePage h1{
+    margin: 2%;
+}
+
+#ePage h2{
+    margin: 5%;
+    width: 600px;
+}
+
+#eButton{
+    margin: 5%;
+}
+
+#one{display: none;}
+
+#two{display: none;}
+
+#three{display: none;}
+
+#vCard button{
+    color:rgb(18, 53, 147);
+    font-size: 90%;
+    text-decoration: underline;
+}
+
