@@ -1448,7 +1448,7 @@
     "mediumArt": "app",
     "beschreibung": "Squirrel News ist ein konstruktiver und kostenloser Nachrichtendienst, der sich darauf konzentriert, lösungsorientierte Berichte aus internationalen Medien zu sammeln. Die App bietet mehrmals wöchentlich Ausgaben mit handverlesenen Artikeln an, die wichtige Fortschritte, positive Initiativen und inspirierende Geschichten hervorheben, die oft in herkömmlichen Nachrichtenquellen zu kurz kommen. Squirrel News ist ein Projekt des gemeinnützigen Vereins Constructive News e.V.",
     "url": "https://squirrel-news.net/de/",
-    "image": "/logos/squirrel.png",
+    "image": "https://cdn1-2010d.kxcdn.com/de/wp-content/uploads/sites/2/2019/10/Squirrel_News-Logo-web.jpg",
     "code": "sqnews",
     "codierung": {
       "1": 3,
@@ -1722,7 +1722,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "Das \"ZDF Auslandsjournal\" ist eine TV-Sendung, die sich mit aktuellen internationalen Themen und Ereignissen befasst. Es bietet den Zuschauern Einblicke in verschiedene Länder und Kulturen weltweit. Die Sendung deckt eine Vielzahl von Themen ab, darunter Politik, Gesellschaft, Kultur, Wirtschaft und vieles mehr. Sie wird regelmäßig im ZDF ausgestrahlt und ist auch in der ZDF Mediathek, in der ZDF App sowie auf YouTube verfügbar. Jede Ausgabe des \"Auslandsjournals\" dauert in der Regel etwa 30 bis 45 Minuten und präsentiert Reportagen, Interviews und Hintergrundberichte aus der ganzen Welt. Die Sendung bietet Zuschauer*innen einen umfassenden Überblick über internationale Ereignisse und Entwicklungen und ermöglicht es ihnen, die Welt aus verschiedenen Perspektiven zu betrachten. Hier ist der Link zur ZDF Mediathek, wo das  \"Auslandsjournals\" verfügbar ist: ZDF Auslandsjournal in der ZDF Mediathek.",
     "url": "https://www.zdf.de/politik/auslandsjournal",
-    "image": "/logos/",
+    "image": "/logos/auslands_journal.png",
     "code": "auslandsjournal",
     "codierung": {
       "1": 3,
@@ -1800,7 +1800,7 @@
     "mediumArt": "podcast",
     "beschreibung": "\"Der Tag\" ist eine tägliche Nachrichtensendung des Deutschlandfunks (DLF), die sich mit aktuellen Ereignissen und Entwicklungen aus Deutschland und der Welt befasst. Die Sendung bietet Hörer*innen eine umfassende Berichterstattung über politische, wirtschaftliche, kulturelle und gesellschaftliche Themen. Sie wird werktags mehrmals am Tag ausgestrahlt und kann auch als Podcast auf der Website des Deutschlandfunks, sowie auf Spotify, Instagram, YouTube und Co. abgerufen werden. Jede Ausgabe von \"Der Tag\" dauert in der Regel etwa 15 bis 30 Minuten und präsentiert Nachrichten, Berichte, Interviews und Analysen von Experten. Die Sendung zeichnet sich durch ihre fundierte und seriöse Berichterstattung, ihre journalistische Qualität und ihre aktuelle Relevanz aus. Sie richtet sich an ein breites Publikum, das an einer objektiven und informativen Berichterstattung interessiert ist.",
     "url": "https://www.deutschlandfunk.de/podcast-104.html",
-    "image": "/logos/defunk.svg",
+    "image": "/images/der_tag.jpeg",
     "code": "dertag",
     "codierung": {
       "1": 3,
