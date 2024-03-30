@@ -36,29 +36,48 @@ const Ergebnis = () => {
   let mediaResults: { [index: string]: number } = {};
   let answers = JSON.parse(searchParams.get("answer") as string);
 
-  for (let medium of testArray) {
+  /**
+   * NOTE - bei mir hat der untere code ein paar probleme bereitet, deswegen habe ich diese funktion geschrieben gehabt. Sie funktioniert soweit, aber wollte deinen jetzt nicht löschen, wenn er funktioniert.
+   */
+  // for (let medium of testArray) {
+  //   mediaResults[medium.code] = 0;
+  //   for (let attr in medium.codierung) {
+  //     let attrIndex = parseInt(attr);
+  //     if (!isNaN(attrIndex)) {
+  //       let answerIndex = attrIndex - 1;
+  //       if (
+  //         answers &&
+  //         Array.isArray(answers) &&
+  //         answerIndex >= 0 &&
+  //         answerIndex < answers.length
+  //       ) {
+  //         mediaResults[medium.code] +=
+  //           Math.pow(
+  //             answers[answerIndex].value -
+  //               medium.codierung[attrIndex.toString()],
+  //             2
+  //           ) * answers[answerIndex].weight;
+  //       } else {
+  //         console.error("Antworten sind ungültig oder nicht vorhanden.");
+  //       }
+  //     }
+  //   }
+  //   mediaResults[medium.code] = Math.sqrt(mediaResults[medium.code]);
+  // }
+
+  /**
+   * NOTE - Diese for-schleife funktionierte bei mir nicht richtig, wegen ts.
+   */
+  for (let medium of test) {
+    // @ts-ignore
     mediaResults[medium.code] = 0;
     for (let attr in medium.codierung) {
-      let attrIndex = parseInt(attr);
-      if (!isNaN(attrIndex)) {
-        let answerIndex = attrIndex - 1;
-        if (
-          answers &&
-          Array.isArray(answers) &&
-          answerIndex >= 0 &&
-          answerIndex < answers.length
-        ) {
-          mediaResults[medium.code] +=
-            Math.pow(
-              answers[answerIndex].value -
-                medium.codierung[attrIndex.toString()],
-              2
-            ) * answers[answerIndex].weight;
-        } else {
-          console.error("Antworten sind ungültig oder nicht vorhanden.");
-        }
-      }
+      // @ts-ignore
+      mediaResults[medium.code] +=
+        Math.pow(answers[attr - 1].value - medium.codierung[attr], 2) *
+        answers[attr - 1].weight;
     }
+    // @ts-ignore
     mediaResults[medium.code] = Math.sqrt(mediaResults[medium.code]);
   }
 

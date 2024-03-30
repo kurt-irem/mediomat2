@@ -64,7 +64,7 @@ export default function Gewichtung() {
             }
             className={`${
               animate ? "animate__animated animate__headShake" : ""
-            } px-6 py-4 bg-[#C86BFA10] hover:bg-[#C86BFA24] text-[#C86BFA] font-light text-2xl rounded-lg flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:scale-105 ease-in uppercase font-medium`}
+            } px-6 py-4 bg-[#C86BFA10] hover:bg-[#C86BFA24] text-[#C86BFA] text-2xl rounded-lg flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:scale-105 ease-in uppercase font-medium`}
           >
             <i className="pi pi-arrow-right" style={{ fontSize: "1.3rem" }}></i>
             zur auswertung
