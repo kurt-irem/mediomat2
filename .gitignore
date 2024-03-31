@@ -1,5 +1,3 @@
 /node_modules/
 /.idea/.gitignore
-/.next
-/.next/*
-/.next/**
+/.next/
