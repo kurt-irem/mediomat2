@@ -42,8 +42,15 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+/* body {
   background-color: rgb(243 244 246);
+} */
+
+.gewichtungCategory {
+  font-weight: 800;
+  margin-top: 40px;
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 80%);
 }
 
 #frageButton {
