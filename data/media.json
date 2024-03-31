@@ -1870,5 +1870,44 @@
       "28": 3,
       "29": 5
     }
+  },
+  {
+    "name": "Maybrit Illner",
+    "mediumArt": "fernsehen",
+    "beschreibung": "\"Maybrit Illner\" ist eine wöchentlich erscheinende Politik-Talkshow im ZDF, in der ca. eine Stunde lang mit vier Gästen über das aktuelle Thema der Woche debattiert und nach Lösungen gesucht wird.",
+    "url": "https://www.zdf.de/politik/maybrit-illner",
+    "image": "/logos/maybritillner.png",
+    "code": "maybritillner",
+    "codierung": {
+      "1": 5,
+      "2": 5,
+      "3": 1,
+      "4": 1,
+      "5": 2,
+      "6": 5,
+      "7": 5,
+      "8": 2,
+      "9": 1,
+      "10": 2,
+      "11": 3,
+      "12": 4,
+      "13": 2,
+      "14": 3,
+      "15": 1,
+      "16": 3,
+      "17": 3,
+      "18": 2,
+      "19": 5,
+      "20": 1,
+      "21": 3,
+      "22": 5,
+      "23": 3,
+      "24": 4,
+      "25": 1,
+      "26": 2,
+      "27": 1,
+      "28": 2,
+      "29": 2
+    }
   }
 ]
