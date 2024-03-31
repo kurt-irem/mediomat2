@@ -784,7 +784,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "Das Wissensmagazin Nano wird montags bis freitags von 18:30 - 19 Uhr auf 3sat ausgestrahlt und um 7 Uhr und 9:45 Uhr nochmals wiederholt. Das Videoformat kann man im Fernsehen, in der 3sat-Mediathek und in der ARD-Mediathek sehen. Nano berichtet über Veränderungen der Umwelt, die Welt der Wissenschaft, Digitalisierung und Politik und liefert tagesaktuell wissenschaftliche Hintergründe zu den großen Fragen unserer Gesellschaft.",
     "url": "https://www.3sat.de/wissen/nano",
-    "image": "/logos/",
+    "image": "/logos/nano.png",
     "code": "nano",
     "codierung": {
       "1": 5,
@@ -1055,8 +1055,7 @@
   {
     "name": "Perspective Daily",
     "mediumArt": "website",
-    "beschreibung": "Perspective Daily ist überzeugt: Online-Medien sollten mehr tun, als Skandale aufzudecken und mit minütlichen Updates um Aufmerksamkeit zu buhlen. Hier geht es weniger um tagesaktuelle Nachrichten als darum, Probleme zu erklären, mögliche Lösungsstrategien aufzuzeigen und diese konstruktiv zu diskutieren.\nEinmal täglich erscheint ein Artikel, in dem aktuelle Fragen von den Autor:innen empirisch und wissenschaftlich beleuchtet werden. Neben der festen Redaktion, die ganz ohne Ressorts auskommt, schreiben für Perspective Daily auch viele Gast-Expert:innen, die in die redaktionellen Abläufe eingebunden werden und so die Themen- und Perspektivenvielfalt erweitern.\n Das Medium finanziert sich durch Mitgliedsbeiträge und ist deshalb werbefrei. Im ersten Jahr gibt es das Abo zum halben Preis für weniger als 1€ pro Woche."
-    ,
+    "beschreibung": "Perspective Daily ist überzeugt: Online-Medien sollten mehr tun, als Skandale aufzudecken und mit minütlichen Updates um Aufmerksamkeit zu buhlen. Hier geht es weniger um tagesaktuelle Nachrichten als darum, Probleme zu erklären, mögliche Lösungsstrategien aufzuzeigen und diese konstruktiv zu diskutieren.\nEinmal täglich erscheint ein Artikel, in dem aktuelle Fragen von den Autor:innen empirisch und wissenschaftlich beleuchtet werden. Neben der festen Redaktion, die ganz ohne Ressorts auskommt, schreiben für Perspective Daily auch viele Gast-Expert:innen, die in die redaktionellen Abläufe eingebunden werden und so die Themen- und Perspektivenvielfalt erweitern.\n Das Medium finanziert sich durch Mitgliedsbeiträge und ist deshalb werbefrei. Im ersten Jahr gibt es das Abo zum halben Preis für weniger als 1€ pro Woche.",
     "url": "https://perspective-daily.de/",
     "image": "/logos/pd.svg",
     "code": "perpective",
@@ -1173,9 +1172,9 @@
   {
     "name": "Inside PolitiX",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
+    "beschreibung": "Damit ihr politisch mitreden könnt! Unsere Hauptstadtkorrespondent*innen nehmen sich regelmäßig ein Thema der Zeit vor und tauchen ganz tief ein. Hier berichten sie von ihren Gesprächen hinter der Kamera und geben fundierte Prognosen.",
     "url": "https://zdf.de/politik/inside-politix",
-    "image": "/logos/",
+    "image": "/logos/inside_politix.png",
     "code": "politx",
     "codierung": {
       "1": 3,
@@ -1214,7 +1213,7 @@
     "mediumArt": "podcast",
     "beschreibung": "Unter der Woche erhältst du hier zwei Mal pro Tag ein Update über die neuesten Nachrichten in den Bereichen Politik, Umwelt und internationales Geschehen. Am Wochenende wird eine Folge am Tag veröffentlicht. Die Folgen dauern im Schnitt zehn Minuten. Jeden Samstag gibt es Spezialfolgen, in denen ein einzelnes Thema für eine halbe bis Dreiviertelstunde unter Betrachtung verschiedener Perspektiven aufgearbeitet wird. Der Podcast wird von ZEIT Online betrieben und ist überall zu finden, wo es Podcasts gibt. Eine Live-Show und ein Newsletter ergänzen das Angebot zusätzlich.",
     "url": "https://zeit.de/serie/was-jetzt",
-    "image": "/logos/",
+    "image": "/logos/was_jetzt.png",
     "code": "wasjetzt",
     "codierung": {
       "1": 1,
@@ -1293,6 +1292,7 @@
     "beschreibung": "CORRECTIV ist ein gemeinwohlorientiertes Medienhaus, das Demokratie stärkt. Als vielfach ausgezeichnete Redaktion stehen sie für investigativen Journalismus. Sie lösen öffentliche Debatten aus, arbeiten mit Bürgerinnen und Bürgern an ihren Recherchen und fördern die Gesellschaft mit unseren Bildungsprogrammen. Zentrale Ziele sind, Machtmissbrauch aufzudecken und ein Zeichen gegen Rechtsextremismus zu setzen. Die Recherchen werden durch private Spenden und unabhängige Institutionen oder Stiftungen finanziert, damit sie nicht durch politische Entscheider, Werbung oder Quoten beeinflusst werden.",
     "url": "https://correctiv.org",
     "image": "/logos/correctiv.svg",
+    "image": "/logos/correctiv.svg",
     "code": "corrweb",
     "codierung": {
       "1": 5,
@@ -1331,7 +1331,7 @@
     "mediumArt": "podcast",
     "beschreibung": "Die Tagesschau in 100 Sekunden ist ein Podcast bzw. Videopodcast der ARD, der mehrmals täglich aktualisiert wird und alle wichtigen Themen des Tages kurz (in 100 Sekunden) zusammenfasst. Anzuhören ist er auf allen gängigen Podcast-Plattformen, sowie online auch anzuschauen auf der Website der Tagesschau. ",
     "url": "https://www.tagesschau.de/multimedia/sendung/tagesschau_in_100_sekunden",
-    "image": "/logos/tagesschau2.svg",
+    "image": "/logos/tagesschau.svg",
     "code": "tspodcast",
     "codierung": {
       "1": 2,
@@ -1370,7 +1370,7 @@
     "mediumArt": "podcast",
     "beschreibung": "Auf den Punkt ist ein Podcast der Süddeutschen Zeitung, der täglich erscheint und ein breites Spektrum an tagesakutellen Themen behandelt. Dabei geht es in den ersten 10 bis 15 Minuten etwas tiefgründiger um ein bestimmtes Thema, und in den letzten paar Minuten gibt es noch einen groben Überblick über sonstige wichtige Nachrichten des Tages. Anzuhören ist er auf allen gängigen Podcast-Plattformen, sowie auch online auf der Website der Süddeutschen Zeitung. ",
     "url": "https://www.sueddeutsche.de/thema/Auf_den_Punkt",
-    "image": "/logos/",
+    "image": "/logos/sueddeutsche_zeitung.svg",
     "code": "aufdenpunkt",
     "codierung": {
       "1": 1,
@@ -1448,7 +1448,7 @@
     "mediumArt": "app",
     "beschreibung": "Squirrel News ist ein konstruktiver und kostenloser Nachrichtendienst, der sich darauf konzentriert, lösungsorientierte Berichte aus internationalen Medien zu sammeln. Die App bietet mehrmals wöchentlich Ausgaben mit handverlesenen Artikeln an, die wichtige Fortschritte, positive Initiativen und inspirierende Geschichten hervorheben, die oft in herkömmlichen Nachrichtenquellen zu kurz kommen. Squirrel News ist ein Projekt des gemeinnützigen Vereins Constructive News e.V.",
     "url": "https://squirrel-news.net/de/",
-    "image": "/logos/squirrel.png",
+    "image": "https://cdn1-2010d.kxcdn.com/de/wp-content/uploads/sites/2/2019/10/Squirrel_News-Logo-web.jpg",
     "code": "sqnews",
     "codierung": {
       "1": 3,
@@ -1487,7 +1487,7 @@
     "mediumArt": "website",
     "beschreibung": "Der lokale Nachrichtendienst berichtet über Themen wie Politik, Alltag, Kultur, Bildung und Geschichte, die den Stadtteil Prenzlauer Berg in Berlin betreffen. Die Beiträge stehen auf der Webseite oder als Newsletter zur Verfügung, wobei durch ein kostenpflichtiges Abo exklusive Inhalte freigeschaltet werden können.",
     "url": "https://www.prenzlauerberg-nachrichten.de",
-    "image": "/logos/",
+    "image": "https://www.prenzlauerberg-nachrichten.de/wp-content/uploads/2017/01/PBN_Logo_SW-500_83-72dpi.jpg",
     "code": "pberg",
     "codierung": {
       "1": 3,
@@ -1526,7 +1526,7 @@
     "mediumArt": "website",
     "beschreibung": "Table Media bietet ausführliche Fachnewsletter von spezialisierten Redaktionen an. Es gibt bestimmte Themengebiete, z.B. China, Europa, Bildung und Klima, die kostenpflichtig abonniert werden können. Das Ziel der “Table Briefings” ist es, den Leser*innen einen Informationsvorsprung und bestenfalls einen Wettbewerbsvorteil zu schaffen.",
     "url": "https://table.media",
-    "image": "/logos/table.svg",
+    "image": "https://table.media/wp-content/uploads/2024/03/05102351/table-briefings-logo-table-media.png",
     "code": "table",
     "codierung": {
       "1": 1,
@@ -1565,6 +1565,7 @@
     "mediumArt": "zeitung",
     "beschreibung": "The New York Times ist eine der bekanntesten US-amerikanischen Tageszeitungen. Sie bietet umfassende Berichterstattung über verschiedene Themen wie aktuelle Ereignisse, Politik, Wirtschaft, Kultur und Wissenschaft, sowohl auf nationaler als auch auf internationaler Ebene. Während einige Beiträge kostenlos in der App gelesen werden können, ermöglicht das Jahresabo für 20€ den Zugang zu allen Online-Angeboten der New York Times, einschließlich exklusiver Artikel,Podcasts, Newsletter und Spiele. Darüber hinaus besteht die Möglichkeit, die gedruckte Ausgabe der Zeitung zu abonnieren.",
     "url": "https://www.nytimes.com/section/todayspaper",
+    "image": "/logos/newyork_times.png",
     "image": "/logos/nyt.svg",
     "code": "nyt",
     "codierung": {
@@ -1602,7 +1603,7 @@
   {
     "name": "RTL Aktuell",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
+    "beschreibung": "RTL Aktuell ist eine tägliche Nachrichtensendung, die vom deutschen Fernsehsender RTL ausgestrahlt wird. Die Sendung wird seit 1988 ausgestrahlt und ist eine der führenden Nachrichtensendungen im deutschen Fernsehen. RTL Aktuell informiert die Zuschauer über aktuelle Ereignisse aus Deutschland und der Welt, darunter Politik, Wirtschaft, Gesellschaft, Sport und Unterhaltung. Die Sendung wird in der Regel am Abend ausgestrahlt und bietet einen Überblick über die wichtigsten Ereignisse des Tages.",
     "url": "https://plus.rtl.de/video-tv/shows/rtl-aktuell-177221",
     "image": "/logos/rtl2.svg",
     "code": "rtlaktuell",
@@ -1637,13 +1638,13 @@
       "28": 2,
       "29": 3
     }
-  }, 
+  },
   {
     "name": "RBB24 Abendschau",
     "mediumArt": "fernsehen",
-    "beschreibung": "",
-    "url": "https://www.rbb-online.de/abendschau/videos/archiv.html",
-    "image": "/logos/rbb24.svg",
+    "beschreibung": "Die RBB24 Abendschau ist eine regionale Nachrichtensendung des Rundfunk Berlin-Brandenburg (RBB), einem öffentlich-rechtlichen Sender in Deutschland. Die Sendung liefert täglich aktuelle Nachrichten, Berichte und Hintergrundinformationen aus Berlin und Brandenburg. Sie wird in der Regel am späten Nachmittag oder frühen Abend ausgestrahlt und informiert die Zuschauer über lokale Ereignisse, Politik, Kultur, Wirtschaft, Sport und andere relevante Themen. Die RBB24 Abendschau ist eine wichtige Informationsquelle für die Bewohner der Region und bietet einen umfassenden Überblick über das Geschehen vor Ort.",
+    "url": "https://www.rbb-online.de/abendschau/",
+    "image": "https://www.rbb-online.de/content/dam/rbb/rbb/logos/rbb-fs.svg.svg/img.svg",
     "code": "rbb24",
     "codierung": {
       "1": 5,
@@ -1721,7 +1722,7 @@
     "mediumArt": "fernsehen",
     "beschreibung": "Das \"ZDF Auslandsjournal\" ist eine TV-Sendung, die sich mit aktuellen internationalen Themen und Ereignissen befasst. Es bietet den Zuschauern Einblicke in verschiedene Länder und Kulturen weltweit. Die Sendung deckt eine Vielzahl von Themen ab, darunter Politik, Gesellschaft, Kultur, Wirtschaft und vieles mehr. Sie wird regelmäßig im ZDF ausgestrahlt und ist auch in der ZDF Mediathek, in der ZDF App sowie auf YouTube verfügbar. Jede Ausgabe des \"Auslandsjournals\" dauert in der Regel etwa 30 bis 45 Minuten und präsentiert Reportagen, Interviews und Hintergrundberichte aus der ganzen Welt. Die Sendung bietet Zuschauer*innen einen umfassenden Überblick über internationale Ereignisse und Entwicklungen und ermöglicht es ihnen, die Welt aus verschiedenen Perspektiven zu betrachten. Hier ist der Link zur ZDF Mediathek, wo das  \"Auslandsjournals\" verfügbar ist: ZDF Auslandsjournal in der ZDF Mediathek.",
     "url": "https://www.zdf.de/politik/auslandsjournal",
-    "image": "/logos/",
+    "image": "/logos/auslands_journal.png",
     "code": "auslandsjournal",
     "codierung": {
       "1": 3,
@@ -1799,7 +1800,7 @@
     "mediumArt": "podcast",
     "beschreibung": "\"Der Tag\" ist eine tägliche Nachrichtensendung des Deutschlandfunks (DLF), die sich mit aktuellen Ereignissen und Entwicklungen aus Deutschland und der Welt befasst. Die Sendung bietet Hörer*innen eine umfassende Berichterstattung über politische, wirtschaftliche, kulturelle und gesellschaftliche Themen. Sie wird werktags mehrmals am Tag ausgestrahlt und kann auch als Podcast auf der Website des Deutschlandfunks, sowie auf Spotify, Instagram, YouTube und Co. abgerufen werden. Jede Ausgabe von \"Der Tag\" dauert in der Regel etwa 15 bis 30 Minuten und präsentiert Nachrichten, Berichte, Interviews und Analysen von Experten. Die Sendung zeichnet sich durch ihre fundierte und seriöse Berichterstattung, ihre journalistische Qualität und ihre aktuelle Relevanz aus. Sie richtet sich an ein breites Publikum, das an einer objektiven und informativen Berichterstattung interessiert ist.",
     "url": "https://www.deutschlandfunk.de/podcast-104.html",
-    "image": "/logos/defunk.svg",
+    "image": "/images/der_tag.jpeg",
     "code": "dertag",
     "codierung": {
       "1": 3,
@@ -1832,7 +1833,8 @@
       "28": 2,
       "29": 3
     }
-  },{
+  },
+  {
     "name": "Deutschlandfunk aktuell",
     "mediumArt": "podcast",
     "beschreibung": "\"Deutschlandfunk Aktuell\" ist eine umfassende Nachrichtensendung des Deutschlandfunks, die sich mit aktuellen Ereignissen und Entwicklungen aus Deutschland und der ganzen Welt befasst. Die Sendung bietet den Hörern eine tagesaktuelle Berichterstattung über politische, wirtschaftliche, gesellschaftliche, kulturelle und sportliche Themen. Sie wird mehrmals täglich ausgestrahlt und informiert die Hörer über die wichtigsten Nachrichten und Ereignisse des Tages. Neben den Nachrichtenberichten werden auch Hintergrundberichte, Interviews mit Experten und Analysen präsentiert, um ein umfassendes Bild der aktuellen Lage zu vermitteln. \"Deutschlandfunk Aktuell\" ist nicht nur im Radio zu hören, sondern auch als Livestream auf der Website des Deutschlandfunks verfügbar. Darüber hinaus können Hörer die Sendung als Podcast abonnieren, um sie jederzeit und überall zu hören.",

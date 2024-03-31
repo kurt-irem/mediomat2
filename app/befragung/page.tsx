@@ -15,11 +15,15 @@ export default function Befragung() {
   const [summe, setSumme] = useState(0);
   const [currentQuestValue, setCurrentQuestValue] = useState<number[]>([]);
 
+  const handleCancel = () => {
+    router.push("/");
+  };
+
   const handleNextQuestion = (value: number) => {
     setCurrentQuestValue((prev) => [...prev, value]);
     setSumme((prev) => prev + value);
     let updatedSumme = summe + value;
-    let updateQuestValue = [...currentQuestValue, value]
+    let updateQuestValue = [...currentQuestValue, value];
     if (currentQuestionIndex + 1 < totalQuestionCount) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
@@ -68,7 +72,7 @@ export default function Befragung() {
               <button
                 onClick={handleQuestionBefore}
                 type="button"
-                className="p-4 bg-blue text-white rounded-lg flex gap-2 justify-center items-center w-min"
+                className="p-4 bg-[#C86BFA] text-white rounded-lg flex gap-2 justify-center items-center w-min"
               >
                 <i
                   className="pi pi-arrow-left"
@@ -102,6 +106,12 @@ export default function Befragung() {
             beschreibung={currentQuestion?.beschreibung || ""}
           />
         </div>
+        {/* <button
+          className="bg-[#FE4E4E20] hover:bg-[#FE4E4E30] text-[#FE4E4E] uppercase w-[500px] p-2 rounded-lg font-medium"
+          onClick={handleCancel}
+        >
+          befragung abbrechen
+        </button> */}
       </div>
     </div>
   );

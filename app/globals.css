@@ -5,99 +5,124 @@
 @import url(https://fonts.googleapis.com/css?family=Mohave);
 
 .card > div {
-    scale: 1.1;
-    border-color: #f7be2f;
-    border-width: 3px;
+  /* background-color: gold; */
+  border: 4px solid #ffe298;
+  /* scale: 1.1; */
 }
 
 .card > div:first-child {
-    scale: .9;
-    border-color: #adccfb;
+  /* background-color: silver; */
+  border: 3px solid #c5dcff;
+  /* scale: 1; */
 }
 
 .card > div:last-child {
-    scale: .8;
-    border-color: #b05724f8;
+  /* background-color: saddlebrown; */
+  border: 2px solid #dba336;
+  /* scale: 1; */
 }
 
 .wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.gold-border {
+  border: 4px solid #ffe298;
+}
+
+.silver-border {
+  border: 3px solid #c5dcff;
+}
+
+.bronze-border {
+  border: 2px solid #dba336;
 }
 
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-    background-color: rgb(243 244 246);
+/* body {
+  background-color: rgb(243 244 246);
+} */
+
+.gewichtungCategory {
+  font-weight: 800;
+  margin-top: 40px;
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 80%);
 }
 
-#frageButton{
-    width: 20%;
-    
+#frageButton {
+  width: 20%;
 }
 
-#frageButton:active{
-    background-color: rgb(29 78 216);
+#frageButton:active {
+  background-color: rgb(29 78 216);
 }
 
-#gFrage{
-    font-size: 100%;
+#gFrage {
+  font-size: 100%;
 }
 
-#gWhole{
-    background-color: darkgray;
+#gWhole {
+  background-color: darkgray;
 }
 
-#gKarte{
+#gKarte {
 }
-#gKarte:hover{
-    color: rgb(18, 53, 147);
-}
-
-#gKat{
-    align-self: center;
-    width: 70%;
+#gKarte:hover {
+  color: rgb(18, 53, 147);
 }
 
-#gKat p:first-child{
-    font-weight: bold;
+#gKat {
+  align-self: center;
+  width: 70%;
 }
 
-#gKat div{
-    margin-bottom: 0.25%;
+#gKat p:first-child {
+  font-weight: bold;
 }
 
-#gPage h1{
-    align-self: center;
+#gKat div {
+  margin-bottom: 0.25%;
 }
 
-#gPage h3{
-    align-self: center;
+#gPage h1 {
+  align-self: center;
 }
 
-#ePage h1{
-    margin: 2%;
+#gPage h3 {
+  align-self: center;
 }
 
-#ePage h2{
-    margin: 5%;
-    width: 600px;
+#ePage h1 {
+  margin: 2%;
 }
 
-#eButton{
-    margin: 5%;
+#ePage h2 {
+  margin: 5%;
+  width: 600px;
 }
 
-#one{display: none;}
-
-#two{display: none;}
-
-#three{display: none;}
-
-#vCard button{
-    color:rgb(18, 53, 147);
-    font-size: 90%;
-    text-decoration: underline;
+#eButton {
+  margin: 5%;
 }
 
+#one {
+  display: none;
+}
+
+#two {
+  display: none;
+}
+
+#three {
+  display: none;
+}
+
+#vCard button {
+  color: rgb(18, 53, 147);
+  font-size: 90%;
+  text-decoration: underline;
+}
