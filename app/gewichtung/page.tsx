@@ -3,7 +3,7 @@ import GewichtungsCard from "@/components/cards/gewichtungsCard";
 import React, { useState } from "react";
 import data from "../../data/questions.json";
 import { useRouter, useSearchParams } from "next/navigation";
-import useAnimationToggle from "@/hooks/useAnimationToggle";
+import { router } from "next/client";
 
 interface Answer {
   value: number;
@@ -11,7 +11,6 @@ interface Answer {
 }
 
 export default function Gewichtung() {
-  const animate = useAnimationToggle(7000);
   const router = useRouter();
 
   const questions: any[] = [];
@@ -40,21 +39,21 @@ export default function Gewichtung() {
    * Um zu zählen, wie viele Thesen man angeclickt hat.
    * NOTE - Funktioniert noch nicht richtig. Habe es erstmal weggelassen.
    */
-  const [counters, setCounters] = useState<number[]>(
-    Array(questions.length).fill(0)
-  );
+  // const [counters, setCounters] = useState<number[]>(
+  //   Array(questions.length).fill(0)
+  // );
 
-  const handleCounter = (index: number) => {
-    setCounters((prevCounters) => {
-      const newCounters = [...prevCounters];
-      newCounters[index] = newCounters[index] === 0 ? 1 : 0;
-      // Aktualisieren Sie das Gewicht im output-Array entsprechend
-      output[index].weight = newCounters[index] === 1 ? 2 : 1;
-      return newCounters;
-    });
-  };
+  // const handleCounter = (index: number) => {
+  //   setCounters((prevCounters) => {
+  //     const newCounters = [...prevCounters];
+  //     newCounters[index] = newCounters[index] === 0 ? 1 : 0;
+  //     // Aktualisieren Sie das Gewicht im output-Array entsprechend
+  //     output[index].weight = newCounters[index] === 1 ? 2 : 1;
+  //     return newCounters;
+  //   });
+  // };
 
-  const totalCount = counters.reduce((acc, val) => acc + val, 0);
+  // const totalCount = counters.reduce((acc, val) => acc + val, 0);
 
   return (
     <div className="px-10 h-screen  text-dark pt-10">
@@ -71,23 +70,27 @@ export default function Gewichtung() {
             <div className="w-3/4" key={index}>
               {index === 0 ? (
                 <p className="gewichtungCategory">Plattform</p>
-              ) : null}
+              ) : (
+                ""
+              )}
               {index === 3 ? <p className="gewichtungCategory">Form</p> : null}
               {index === 6 ? (
                 <p className="gewichtungCategory">Beitragslänge</p>
-              ) : null}
+              ) : (
+                ""
+              )}
               {index === 7 ? (
                 <p className="gewichtungCategory">Frequenz</p>
-              ) : null}
-              {index === 8 ? (
-                <p className="gewichtungCategory">Kosten</p>
-              ) : null}
+              ) : (
+                ""
+              )}
+              {index === 8 ? <p className="gewichtungCategory">Kosten</p> : ""}
               {index === 9 ? (
                 <p className="gewichtungCategory">Redaktion</p>
-              ) : null}
-              {index === 12 ? (
-                <p className="gewichtungCategory">Inhalt</p>
-              ) : null}
+              ) : (
+                ""
+              )}
+              {index === 12 ? <p className="gewichtungCategory">Inhalt</p> : ""}
               <GewichtungsCard
                 key={index}
                 frage={frage}
@@ -110,9 +113,7 @@ export default function Gewichtung() {
             onClick={() =>
               router.push("/ergebnis?answer=" + JSON.stringify(output))
             }
-            className={`${
-              animate ? "animate__animated animate__headShake" : ""
-            } px-6 py-4 bg-[#C86BFA16] hover:bg-[#C86BFA24] text-[#C86BFA] text-2xl rounded-lg flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:scale-105 ease-in uppercase font-medium`}
+            className={`px-6 py-4 bg-[#C86BFA16] hover:bg-[#C86BFA24] text-[#C86BFA] text-2xl rounded-lg flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:scale-105 ease-in uppercase font-medium`}
           >
             <i className="pi pi-arrow-right" style={{ fontSize: "1.3rem" }}></i>
             zur auswertung
