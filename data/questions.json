@@ -57,7 +57,7 @@
                 },
                 {
                     "frage": "Ich möchte Nachrichten vor allem in gedruckter Form konsumieren",
-                    "beschreibung": "",
+                    "beschreibung": "Die Präferenz liegt darauf, Nachrichten vor allem in gedruckter Form, beispielsweise in Zeitungen oder Magazinen, zu konsumieren.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -83,7 +83,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten am liebsten in Form von Text",
-                    "beschreibung": "",
+                    "beschreibung": "Präferenz besteht darin, Nachrichten ausschließlich in textbasierter Form zu konsumieren, ohne jegliche Einbindung von Bildern, Videos oder Audioinhalten.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -108,7 +108,7 @@
                     ]
                 },
                 {
-                    "frage": "Ich konsumiere Nachrichten am liebsten in Form von Audio",
+                    "frage": "Ich konsumiere Nachrichten am liebsten in Form von reinem Audio",
                     "beschreibung": "Hier meinen wir Formate wie Radio-sendungen, Podcasts, etc… Was hier nicht reinfällt sind TV-Sendungen, Video-Interview-Formate auf YouTube etc.",
                     "bewertung": [
                         {
@@ -135,7 +135,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten am liebsten in Form von Video",
-                    "beschreibung": "",
+                    "beschreibung": "Die präferierte Art, Nachrichten zu konsumieren, liegt in der Videoform, wobei die visuelle Präsentation und die dynamische Natur von Bewegtbildern bevorzugt werden.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -187,7 +187,7 @@
                 },
                 {
                     "frage": "So regelmäßig möchte ich informiert werden ..",
-                    "beschreibung": " Beschreibung ",
+                    "beschreibung": "Mit welcher Regelmäßigkeit möchtest du informiert werden?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -213,7 +213,7 @@
                 },
                 {
                     "frage": "Ich bin bereit für Journalismus zu bezahlen",
-                    "beschreibung": "",
+                    "beschreibung": "Wären Sie bereit, für journalistische Inhalte zu bezahlen?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -239,7 +239,7 @@
                 },
                 {
                     "frage": "Mir ist Diversität in der Redaktion wichtig",
-                    "beschreibung": "",
+                    "beschreibung": "Mir ist wichtig, dass die Redaktion ALLE Menschen in unserer Gesellschaft widerspiegelt.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -265,7 +265,7 @@
                 },
                 {
                     "frage": "Mir ist eine flache Hierarchie in der Redaktion wichtig",
-                    "beschreibung": "",
+                    "beschreibung": "Mir ist wichtig, dass die Redaktion ihre internen Art und Weise zu arbeiten offen legt und z.B. keine Ressorts hat oder die  gleiche Bezahlung von freien/festangestellten Mitarbeiter:innen hat etc.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -317,7 +317,7 @@
                 },
                 {
                     "frage": "Ich will immer über lokale Geschehnisse informiert sein",
-                    "beschreibung": "",
+                    "beschreibung": "Hier meinen wir, Dinge, die in deiner Region, Bezirk, Dorf etc. passiert vielleicht aber nicht so viel mit bundespolitischen Themen zu tun haben.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -343,7 +343,7 @@
                 },
                 {
                     "frage": "Ich will immer über internationale Geschehnisse informiert sein",
-                    "beschreibung": "",
+                    "beschreibung": "Dir ist wichtig zu wissen was Gesellschaftlich, Politisch Ökonomisch, Klimapolitisch, etc. in der Welt passiert",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -660,7 +660,7 @@
                 },
                 {
                     "frage": "Mir ist eine gute Veranschaulichung wichtig, z.B. in Form von Bildern, Grafiken oder Videos",
-                    "beschreibung": "",
+                    "beschreibung": "Magst du es, wenn Inhalte oft visuell dargestellt oder unterstützt werden oder bevorzugst du eher textlastige Beiträge?",
                     "bewertung": [
                         {
                             "wert": 1,
