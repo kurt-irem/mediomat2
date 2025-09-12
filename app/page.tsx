@@ -15,33 +15,39 @@ export default function Home() {
   const animate = useAnimationToggle(7000);
 
   return (
-    <div className=" h-full w-full px-4 text-dark">
-      <div className="flex flex-col items-center text-center pt-24">
-        <h1 className="text-[96px] font-semibold text-dark">
+    <div className="w-screen px-3 sm:px-4 md:px-5">
+      <div  className="flex items-center justify-center min-h-screen px-4" >
+
+      
+      <div className="flex flex-col items-center text-center w-full max-w-[1100px] px-6 sm:px-10 md:px-20 py-20 mybox">
+        <h1 className="font-semibold ont-mono tracking-wide  
+        text-5xl sm:text-6xl md:text-7xl lg:text-[80px]" >
           {textData.anwendungsName}
         </h1>
         <p
-          className="text-dark mt-16 max-w-[800px] font-normal text-xl"
+          className="mt-16 max-w-[800px] font-normal text-l md:text-xl text-justify hyphens-auto"
           style={{ whiteSpace: "pre-wrap" }}
         >
           {textData.ersteInformation}
         </p>
-        <button
+        
+         <button
           onClick={() => router.push("/befragung")}
-          className={`${
-            animate ? "animate__animated animate__headShake" : ""
-          } mt-28 px-6 py-4 bg-[#C86BFA] text-white font-light text-2xl rounded-lg  shadow-md flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:shadow-2xl hover:scale-105 ease-in uppercase font-medium`}
+          className=" mt-20 px-10 py-4 bg-primary-base border border-primary-300 text-2xl shadow-md flex flex-row-reverse gap-3 justify-center items-center rounded-2xl transition hover:bg-primary-200 hover:scale-105 ease-in uppercase"
         >
           <i className="pi pi-arrow-right" style={{ fontSize: "1.2rem" }} />
           {textData.startButton}
         </button>
-        <button
+        
+      </div>
+      </div>
+
+      <button
           onClick={() => router.push("/media")}
           className="underline mt-6 text-lg text-gray-400 font-medium"
         >
           {textData.medienuebersichtButton}
         </button>
-      </div>
 
       <div className="py-[180px] flex flex-col gap-20 justify-center items-center">
         <div className="flex flex-col gap-6 max-w-[800px]">

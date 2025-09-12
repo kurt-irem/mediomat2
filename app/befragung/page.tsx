@@ -4,6 +4,7 @@ import BeschreibungsCard from "@/components/cards/beschreibungsCard";
 import FragenKarte from "@/components/cards/fragenKarte";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
+import ProgressBar from "@/components/progressBar";
 
 // import JSON
 import data from "../../data/questions.json";
@@ -63,29 +64,50 @@ export default function Befragung() {
   }
 
   return (
-    <div className="bg-gray-100 w-full h-screen">
-      <div className="flex flex-col gap-14 items-center pt-[100px]">
-        <div className="flex flex-row gap-4">
-          {/* Zurück-Button */}
-          {currentQuestionIndex > 0 && (
-            <div className="w-min">
-              <button
-                onClick={handleQuestionBefore}
-                type="button"
-                className="p-4 bg-[#C86BFA] text-white rounded-lg flex gap-2 justify-center items-center w-min"
-              >
-                <i
-                  className="pi pi-arrow-left"
-                  style={{ fontSize: "1rem", fontWeight: "bold" }}
-                ></i>
-              </button>
-            </div>
-          )}
-
+     <div className=" w-screen h-screen px-3 md:px-7">
+      {/* <div className="w-full">
+        <button
+          className="bg-[#FE4E4E20] hover:bg-[#FE4E4E30] text-[#FE4E4E] uppercase w-[500px] p-2 rounded-lg font-medium"
+          onClick={handleCancel}
+        >
+          x
+        </button>
+      </div> */}
+      <div className="flex items-center justify-center h-screen">        
+        <div className="flex flex-col gap-4 items-center">
+          
+          
+          <div className="flex flex-row w-full max-w-[800px] items-center justify-center"> 
+            {/* Zurück-Button */}
+            {currentQuestionIndex > 0 && (
+              <div className=" px-4">
+                <button
+                  onClick={handleQuestionBefore}
+                  type="button"
+                  className="p-4  text-black rounded-full flex gap-2 justify-center items-center w-min hover:scale-110"
+                >
+                  <i
+                    className="pi pi-arrow-left"
+                    style={{ fontSize: "1rem", fontWeight: "bold" }}
+                  ></i>
+                </button>
+    
+              </div>
+            )}
+            <ProgressBar
+              current={currentQuestionIndex}
+              total={totalQuestionCount}
+            />
+            <p className=" text-gray-500 px-4">
+              {(currentQuestionIndex +1 ) + "/" + totalQuestionCount }
+            </p>
+          </div>
+          <div className="flex flex-row">
           {currentQuestion && (
             <FragenKarte
               frage={currentQuestion.frage}
               //kategorie={data.fragen[currentQuestionIndex].kategorie}
+              beschreibung= {currentQuestion?.beschreibung}
               handleNextQuestion={handleNextQuestion}
               fragenCounter={{
                 index: currentQuestionIndex + 1,
@@ -95,7 +117,7 @@ export default function Befragung() {
             />
           )}
 
-          <BeschreibungsBtn
+          {/* <BeschreibungsBtn
             hideExample={hideExample}
             handleClick={() => setHideExample(!hideExample)}
           />
@@ -104,14 +126,10 @@ export default function Befragung() {
             hideExample={!hideExample}
             handleClick={() => setHideExample(false)}
             beschreibung={currentQuestion?.beschreibung || ""}
-          />
+          /> */}
+          </div>
         </div>
-        {/* <button
-          className="bg-[#FE4E4E20] hover:bg-[#FE4E4E30] text-[#FE4E4E] uppercase w-[500px] p-2 rounded-lg font-medium"
-          onClick={handleCancel}
-        >
-          befragung abbrechen
-        </button> */}
+        
       </div>
     </div>
   );

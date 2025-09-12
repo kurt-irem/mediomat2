@@ -72,33 +72,17 @@ const Ergebnis = () => {
     );
 
     return (
-        <div className=" text-dark p-8">
-            <div className="flex flex-row justify-between">
-        <span>
-          <h1 className="text-4xl font-semibold">Auswertung</h1>
-          <h2 className="text-xl">
-            Diese Auswahl an Medien könnten Sie interessieren.
-          </h2>
-        </span>
-                <span className="flex flex-col gap-2">
-          <button
-              onClick={() => router.push("/befragung")}
-              className="px-6 py-4 bg-purple-100 rounded-lg text-purple-400 uppercase flex gap-3 items-center hover:bg-purple-200 hover:text-purple-500 hover:scale-100 scale-95 transition-all"
-          >
-            {textData.repeat}
-              <i className="pi pi-replay" style={{fontSize: "1rem"}}/>
-          </button>
-          <button
-              onClick={() => router.push("/")}
-              className="underline text-sm text-gray-400"
-          >
-            {textData.zurStartseite}
-          </button>
-        </span>
+        <div className="px-3 py-10 md:px-8">
+            <div className="flex flex-col wrap justify-center items-center">
+                <h1 className="text-2xl sm:text-4xl font-semibold">Auswertung</h1>
+                <h2 className="text-lg sm:text-2xl p-5 pt-7">
+                    Diese Auswahl an Medien könnten Sie interessieren:
+                </h2>
+    
             </div>
 
             <Suspense fallback={<div>Loading...</div>}>
-                <div className="flex justify-center">
+                <div className="flex flex-col justify-center items-center">
                     {favoriteCards.map((card, index) => (
                         <div key={index} className="relative">
               <span
@@ -146,6 +130,23 @@ const Ergebnis = () => {
                     ))}
                 </div>
             </Suspense>
+             <div className="flex flex-row gap-10 wrap justify-center items-center">
+                
+                <button
+                    onClick={() => router.push("/befragung")}
+                    className="px-6 py-4 bg-purple-100 rounded-lg text-purple-400 uppercase flex gap-3 items-center hover:bg-purple-200 hover:text-purple-500 hover:scale-100 scale-95 transition-all"
+                >
+                    {textData.repeat}
+                    <i className="pi pi-replay" style={{fontSize: "1rem"}}/>
+                </button>
+                <button
+                    onClick={() => router.push("/")}
+                    className="underline text-sm text-gray-400"
+                >
+                    {textData.zurStartseite}
+                </button>
+            
+            </div>
         </div>
     );
 };

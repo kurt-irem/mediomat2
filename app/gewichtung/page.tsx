@@ -5,6 +5,7 @@ import data from "../../data/questions.json";
 import { useRouter, useSearchParams } from "next/navigation";
 import { router } from "next/client";
 
+
 interface Answer {
   value: number;
   weight: number;
@@ -19,6 +20,8 @@ export default function Gewichtung() {
       questions.push(question.frage);
     }
   }
+  
+  const [showMore, setShowMore] = useState(false);
 
   const searchParams = useSearchParams();
   let output: Answer[] = [];
@@ -56,18 +59,21 @@ export default function Gewichtung() {
   // const totalCount = counters.reduce((acc, val) => acc + val, 0);
 
   return (
-    <div className="px-10 h-screen  text-dark pt-10">
-      <div className="flex flex-col gap-2">
-        <h1 className="font-semibold text-[56px]">Gewichtung der Thesen</h1>
-        <h3 className="text-2xl max-w-[900px] mb-10">
+    <div className="w-screen h-screen px-3 md:px-10 pt-10 ">
+      <div className="flex flex-col gap-2 items-center">
+        <h1 className="font-semibold text-2xl sm:text-4xl">Gewichtung der Thesen</h1>
+        <h3 className=" text-sm sm:text-xl max-w-[900px] p-2 pl-5  sm:p-10 ">
           Welche Thesen sind Ihnen besonders wichtig? Markieren Sie die Thesen,
           um diese mit doppelter Gewichtung in die Berechnung einfließen zu
           lassen.
         </h3>
 
-        <div className="flex flex-col gap-3 w-full justify-center items-center">
+        <div className={`flex flex-col gap-3 items-center bg-secondary-100 max-w-[1000px] rounded-2xl pb-10  overflow-hidden transition-all duration-300 ease-in-out ${
+          showMore ? "" : "max-h-[800px]"
+        }`}
+          >
           {questions.map((frage, index) => (
-            <div className="w-3/4" key={index}>
+            <div className="w-full px-5 md:px-10" key={index}>
               {index === 0 ? (
                 <p className="gewichtungCategory">Plattform</p>
               ) : (
@@ -99,9 +105,19 @@ export default function Gewichtung() {
                   // handleCounter(index);
                 }}
               />
+              
             </div>
           ))}
+          
         </div>
+        <div className="bg-secondary-100">
+          <button
+          className="mt-2 text-brand font-medium hover:underline"
+          onClick={() => setShowMore(!showMore)}
+          >
+          {showMore ? "Show less" : "Show more"}
+        </button>
+      </div>
 
         <div className="flex flex-col items-center text-center mt-10">
           {/* NOTE - Zum anzeigen, wie viele Thesen man ausgewählt hat. Funktionier noch nicht richtig! */}
@@ -113,7 +129,7 @@ export default function Gewichtung() {
             onClick={() =>
               router.push("/ergebnis?answer=" + JSON.stringify(output))
             }
-            className={`px-6 py-4 bg-[#C86BFA16] hover:bg-[#C86BFA24] text-[#C86BFA] text-2xl rounded-lg flex flex-row-reverse gap-3 justify-center items-center w-[400px] transition hover:scale-105 ease-in uppercase font-medium`}
+            className="mt-5 px-10 py-4 bg-primary-base border border-primary-300 text-2xl shadow-md flex flex-row-reverse gap-3 justify-center items-center rounded-2xl transition hover:bg-primary-200 hover:scale-105 ease-in uppercase"
           >
             <i className="pi pi-arrow-right" style={{ fontSize: "1.3rem" }}></i>
             zur auswertung

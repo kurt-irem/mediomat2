@@ -42,9 +42,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* body {
-  background-color: rgb(243 244 246);
-} */
+body {
+  background-color: #C9DABFD9;
+} 
 
 .gewichtungCategory {
   font-weight: 800;
@@ -125,4 +125,10 @@
   color: rgb(18, 53, 147);
   font-size: 90%;
   text-decoration: underline;
+}
+
+.mybox{
+  background-color: #E9F2F4;
+  border-radius: 20px;
+  border: 1px solid  #586466;
 }

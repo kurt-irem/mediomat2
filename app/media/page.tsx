@@ -1,7 +1,7 @@
 "use client";
 import React, { Suspense } from "react";
 import data from "../../data/media.json";
-import VorschlagCard from "@/components/cards/vorschlagCard";
+import VorschlagCard from "@/components/cards/vorschlagCardAlt";
 import { useRouter } from "next/navigation";
 import textData from "@/data/texte.json";
 
@@ -12,7 +12,7 @@ export default function Gewichtung() {
     cards.push(medium);
   }
   return (
-    <div className=" text-dark p-8">
+    <div className=" px-3 py-10 md:px-10">
       <div className="flex justify-between items-center">
         <span>
           <h1 className="text-4xl font-semibold">Unsere Medien</h1>
