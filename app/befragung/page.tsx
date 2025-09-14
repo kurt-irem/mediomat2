@@ -1,10 +1,10 @@
 "use client";
-import BeschreibungsBtn from "@/components/buttons/beschreibungsBtn";
-import BeschreibungsCard from "@/components/cards/beschreibungsCard";
+
 import FragenKarte from "@/components/cards/fragenKarte";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import ProgressBar from "@/components/progressBar";
+import CancelButton from "@/components/buttons/cancelButton";
 
 // import JSON
 import data from "../../data/questions.json";
@@ -16,9 +16,6 @@ export default function Befragung() {
   const [summe, setSumme] = useState(0);
   const [currentQuestValue, setCurrentQuestValue] = useState<number[]>([]);
 
-  const handleCancel = () => {
-    router.push("/");
-  };
 
   const handleNextQuestion = (value: number) => {
     setCurrentQuestValue((prev) => [...prev, value]);
@@ -64,72 +61,52 @@ export default function Befragung() {
   }
 
   return (
-     <div className=" w-screen h-screen px-3 md:px-7">
-      {/* <div className="w-full">
-        <button
-          className="bg-[#FE4E4E20] hover:bg-[#FE4E4E30] text-[#FE4E4E] uppercase w-[500px] p-2 rounded-lg font-medium"
-          onClick={handleCancel}
-        >
-          x
-        </button>
-      </div> */}
-      <div className="flex items-center justify-center h-screen">        
-        <div className="flex flex-col gap-4 items-center">
-          
-          
-          <div className="flex flex-row w-full max-w-[800px] items-center justify-center"> 
+    <div className="w-screen h-screen px-3 md:px-7 pt-10 md:pt-0">
+      <div className="">
+        <CancelButton></CancelButton>
+      </div>
+      <div className="flex items-center justify-center h-screen">
+        <div className="flex flex-col gap-4 items-center " >
+          <div className="flex flex-row w-full max-w-[850px] items-center justify-center py-2">
             {/* Zurück-Button */}
             {currentQuestionIndex > 0 && (
-              <div className=" px-4">
+              <div className="px-4 md:px-6">
                 <button
                   onClick={handleQuestionBefore}
                   type="button"
-                  className="p-4  text-black rounded-full flex gap-2 justify-center items-center w-min hover:scale-110"
+                  className="´text-gray-700 rounded-full flex gap-2 justify-center items-center w-min hover:scale-110"
                 >
                   <i
                     className="pi pi-arrow-left"
                     style={{ fontSize: "1rem", fontWeight: "bold" }}
                   ></i>
                 </button>
-    
               </div>
             )}
             <ProgressBar
               current={currentQuestionIndex}
               total={totalQuestionCount}
             />
-            <p className=" text-gray-500 px-4">
-              {(currentQuestionIndex +1 ) + "/" + totalQuestionCount }
+            <p className=" text-gray-500 px-4 md:px-6 tracking-wide">
+              {currentQuestionIndex + 1 + "/" + totalQuestionCount}
             </p>
           </div>
-          <div className="flex flex-row">
-          {currentQuestion && (
-            <FragenKarte
-              frage={currentQuestion.frage}
-              //kategorie={data.fragen[currentQuestionIndex].kategorie}
-              beschreibung= {currentQuestion?.beschreibung}
-              handleNextQuestion={handleNextQuestion}
-              fragenCounter={{
-                index: currentQuestionIndex + 1,
-                counter: totalQuestionCount,
-              }}
-              bewertung={currentQuestion.bewertung}
-            />
-          )}
-
-          {/* <BeschreibungsBtn
-            hideExample={hideExample}
-            handleClick={() => setHideExample(!hideExample)}
-          />
-
-          <BeschreibungsCard
-            hideExample={!hideExample}
-            handleClick={() => setHideExample(false)}
-            beschreibung={currentQuestion?.beschreibung || ""}
-          /> */}
+          <div className="flex flex-row pb-2 md:pb-12">
+            {currentQuestion && (
+              <FragenKarte
+                frage={currentQuestion.frage}
+                //kategorie={data.fragen[currentQuestionIndex].kategorie}
+                beschreibung={currentQuestion?.beschreibung}
+                handleNextQuestion={handleNextQuestion}
+                fragenCounter={{
+                  index: currentQuestionIndex + 1,
+                  counter: totalQuestionCount,
+                }}
+                bewertung={currentQuestion.bewertung}
+              />
+            )}
           </div>
         </div>
-        
       </div>
     </div>
   );

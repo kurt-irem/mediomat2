@@ -7,6 +7,7 @@ import React, {Suspense} from "react";
 import textData from "@/data/texte.json";
 import useAnimationToggle from "@/hooks/useAnimationToggle";
 import {Container} from "postcss";
+import MenuButton from "@/components/menu";
 
 interface Bewertung {
     wert: number;
@@ -65,20 +66,23 @@ const Ergebnis = () => {
             return e.code == winners[1][0];
         })
     );
-    favoriteCards.unshift(
+    favoriteCards.push(
         test.find((e, i) => {
             return e.code == winners[2][0];
         })
     );
 
     return (
-        <div className="px-3 py-10 md:px-8">
+        <div className="px-3 md:px-10 pt-16 pb-10">
+            <div className="">
+                <MenuButton></MenuButton>
+            </div>
+            
             <div className="flex flex-col wrap justify-center items-center">
                 <h1 className="text-2xl sm:text-4xl font-semibold">Auswertung</h1>
                 <h2 className="text-lg sm:text-2xl p-5 pt-7">
                     Diese Auswahl an Medien könnten Sie interessieren:
                 </h2>
-    
             </div>
 
             <Suspense fallback={<div>Loading...</div>}>
@@ -94,7 +98,7 @@ const Ergebnis = () => {
                               : "top-2 -left-2"
                   }`}
               >
-                <i>
+                {/* <i>
                   <svg
                       width={index === 0 ? "48" : index === 1 ? "64" : "32"}
                       height={index === 0 ? "48" : index === 1 ? "64" : "32"}
@@ -113,7 +117,7 @@ const Ergebnis = () => {
                         }
                     />
                   </svg>
-                </i>
+                </i> */}
               </span>
                             <span className="flex">
                 <VorschlagCard

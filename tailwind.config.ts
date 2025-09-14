@@ -13,15 +13,20 @@ const config: Config = {
           base: "#C9DABF", 
           100: "#EAF4E5", 
           200: "#A4B29B", 
+          250: "#b5c4ac", 
           300: '#808B79'
         },
         secondary: {
           base: "#D0E4E7",
+          50: "#f4f9fa",
           100: "#E9F2F4",
           150: "#CCDFE1",
           200: "#BFD7DA",
-          250: "#D0E4E7",
+          250: "#A7CDD2",
+          275: '#C3CFD0',
           300: "#9BAFB1",
+          400: "#7C8C8E",
+
 
         },
         neutral: {

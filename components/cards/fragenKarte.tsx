@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import FrageButton from "../buttons/frageButtun";
-import BeschreibungsBtn from "@/components/buttons/beschreibungsBtn";
+import FrageButton from "../buttons/frageButton";
+import BeschreibungsBtn from "@/components/buttons/beschreibungsButton";
 import BeschreibungsCard from "@/components/cards/beschreibungsCard";
 
 interface Bewertung {
@@ -31,24 +31,27 @@ export default function FragenKarte({
   const [hideExample, setHideExample] = useState(false);
 
   return (
-    <div className="relative flex flex-col gap-6 sm:gap-8 md:gap-10 
+    <div
+      className="relative flex flex-col gap-6 sm:gap-8 md:gap-10 
                  max-w-[1000px] rounded-[20px] 
                 px-4 sm:px-8 md:px-16 
-                py-6 sm:py-8 md:py-12 
-                shadow-lg bg-secondary-100 items-center" >
-
+                py-6 sm:py-8 md:py-10 
+                shadow-lg bg-secondary-100 items-center"
+    >
       <div className="w-full flex justify-between">
-           <h2 className="font-normal text-xl sm:text-2xl md:text-3xl break-words pt-5">{frage + "."}</h2>
-          <BeschreibungsBtn
-             hideExample={hideExample}
-             handleClick={() => setHideExample(!hideExample)}
-          />
-      
-           <BeschreibungsCard
-              hideExample={!hideExample}
-              handleClick={() => setHideExample(false)}
-              beschreibung={beschreibung|| ""}
-            />
+        <h2 className="font-normal text-xl sm:text-2xl md:text-3xl break-words pt-5 px-5">
+          {frage + "."}
+        </h2>
+        <BeschreibungsBtn
+          hideExample={hideExample}
+          handleClick={() => setHideExample(!hideExample)}
+        />
+
+        <BeschreibungsCard
+          hideExample={!hideExample}
+          handleClick={() => setHideExample(false)}
+          beschreibung={beschreibung || ""}
+        />
       </div>
       <div className="flex flex-col md:flex-row gap-6 md:gap-4 mt-6">
         {bewertung.map((frage, index) => (

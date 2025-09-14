@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import data from "../../data/questions.json";
 import { useRouter, useSearchParams } from "next/navigation";
 import { router } from "next/client";
-
+import MenuButton from "@/components/menu";
 
 interface Answer {
   value: number;
@@ -20,7 +20,7 @@ export default function Gewichtung() {
       questions.push(question.frage);
     }
   }
-  
+
   const [showMore, setShowMore] = useState(false);
 
   const searchParams = useSearchParams();
@@ -38,40 +38,29 @@ export default function Gewichtung() {
     console.log(output);
   }
 
-  /**
-   * Um zu zählen, wie viele Thesen man angeclickt hat.
-   * NOTE - Funktioniert noch nicht richtig. Habe es erstmal weggelassen.
-   */
-  // const [counters, setCounters] = useState<number[]>(
-  //   Array(questions.length).fill(0)
-  // );
-
-  // const handleCounter = (index: number) => {
-  //   setCounters((prevCounters) => {
-  //     const newCounters = [...prevCounters];
-  //     newCounters[index] = newCounters[index] === 0 ? 1 : 0;
-  //     // Aktualisieren Sie das Gewicht im output-Array entsprechend
-  //     output[index].weight = newCounters[index] === 1 ? 2 : 1;
-  //     return newCounters;
-  //   });
-  // };
-
-  // const totalCount = counters.reduce((acc, val) => acc + val, 0);
-
   return (
-    <div className="w-screen h-screen px-3 md:px-10 pt-10 ">
+    <div className="w-screen h-screen px-3 md:px-10 pt-16 ">
+      <div>
+        <MenuButton></MenuButton>
+      </div>
+
+      <div></div>
       <div className="flex flex-col gap-2 items-center">
-        <h1 className="font-semibold text-2xl sm:text-4xl">Gewichtung der Thesen</h1>
+        <h1 className="font-semibold text-2xl sm:text-4xl">
+          Gewichtung der Thesen
+        </h1>
         <h3 className=" text-sm sm:text-xl max-w-[900px] p-2 pl-5  sm:p-10 ">
           Welche Thesen sind Ihnen besonders wichtig? Markieren Sie die Thesen,
           um diese mit doppelter Gewichtung in die Berechnung einfließen zu
           lassen.
         </h3>
 
-        <div className={`flex flex-col gap-3 items-center bg-secondary-100 max-w-[1000px] rounded-2xl pb-10  overflow-hidden transition-all duration-300 ease-in-out ${
-          showMore ? "" : "max-h-[800px]"
-        }`}
-          >
+        <div className="flex flex-col bg-secondary-100 rounded-2xl"> 
+        <div
+          className={`mb-1 flex flex-col gap-3 items-center bg-secondary-100 max-w-[1000px] rounded-2xl pb-5  overflow-hidden transition-all duration-300 ease-in-out ${
+            showMore ? "" : "max-h-[800px]"
+          }`}
+        >
           {questions.map((frage, index) => (
             <div className="w-full px-5 md:px-10" key={index}>
               {index === 0 ? (
@@ -105,31 +94,41 @@ export default function Gewichtung() {
                   // handleCounter(index);
                 }}
               />
-              
             </div>
           ))}
-          
         </div>
-        <div className="bg-secondary-100">
+        
           <button
-          className="mt-2 text-brand font-medium hover:underline"
-          onClick={() => setShowMore(!showMore)}
+            className=" text-secondary-400 font-medium hover:text-gray-700"
+            onClick={() => setShowMore(!showMore)}
           >
-          {showMore ? "Show less" : "Show more"}
-        </button>
-      </div>
+            {showMore ? (
+              <div className="flex flex-row gap-3 items-center justify-center pb-5">
+                <p>Weniger anzeigen</p>
+                <i
+                  className="pi pi-chevron-up"
+                  style={{ fontSize: "1em", fontWeight: "bold" }}
+                ></i>
+              </div>
+            ) : (
+             <div className="flex flex-row gap-3 items-center justify-center py-3 md:py-5 border-t border-secondary-300">
+                <p>Alle anzeigen</p>
+                <i
+                  className="pi pi-chevron-down "
+                  style={{ fontSize: "1em", fontWeight: "bold" }}
+                ></i>
+              </div>
+            )}
+          </button>
+        </div>
 
         <div className="flex flex-col items-center text-center mt-10">
-          {/* NOTE - Zum anzeigen, wie viele Thesen man ausgewählt hat. Funktionier noch nicht richtig! */}
-          {/* <p className="mb-2 text-[#c4c4c4]">
-            {totalCount} These(n) wurde(n) ausgewählt
-          </p> */}
           <button
             type="button"
             onClick={() =>
               router.push("/ergebnis?answer=" + JSON.stringify(output))
             }
-            className="mt-5 px-10 py-4 bg-primary-base border border-primary-300 text-2xl shadow-md flex flex-row-reverse gap-3 justify-center items-center rounded-2xl transition hover:bg-primary-200 hover:scale-105 ease-in uppercase"
+            className="mt-2 px-10 py-4 bg-primary-250 border border-primary-300 text-lg md:text-xl  shadow-md flex flex-row-reverse gap-3 justify-center items-center rounded-2xl transition hover:bg-primary-200 hover:scale-105 ease-in uppercase"
           >
             <i className="pi pi-arrow-right" style={{ fontSize: "1.3rem" }}></i>
             zur auswertung
