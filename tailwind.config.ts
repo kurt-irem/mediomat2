@@ -18,14 +18,16 @@ const config: Config = {
         },
         secondary: {
           base: "#D0E4E7",
-          50: "#f4f9fa",
+          50: "#f0f6f7",
           100: "#E9F2F4",
           150: "#CCDFE1",
           200: "#BFD7DA",
           250: "#A7CDD2",
           275: '#C3CFD0',
           300: "#9BAFB1",
-          400: "#7C8C8E",
+          350: "#96b2b4",
+          400: "#788E90",
+          
 
 
         },

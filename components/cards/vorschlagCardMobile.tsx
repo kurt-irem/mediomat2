@@ -25,27 +25,27 @@ export default function VorschlagCard({
   };
   return (
     <div
-      className={`${cardClassName} ${
+     className={`${cardClassName} ${
         cardIndex === 0
-          ? "silver-border"
+          ? " border-2 scale-95 md:mb-5"
           : cardIndex === 1
-          ? "gold-border"
+          ? " border-2 scale-90 md:mb-3"
           : cardIndex === 2
-          ? "bronze-border"
-          : "border-2 border-gray-200"
-      } bg-white p-6 w-[332px] min-h-[700px] rounded-2xl hover:scale-95 scale-90 flex justify-between flex-col shadow-xl transition-all`}
+          ? "scale-90"
+          : "border-1 border-gray-200"
+      } bg-secondary-50 scale-90 p-6 max-w-[400px] min-h-[700px] rounded-2xl flex justify-between flex-col shadow-xl transition-all border border-secondary-300`}
     >
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-8">
         <span>
-          <p className="px-2 bg-gray-100 text-gray-500 w-min rounded-md font-medium tracking-[1px] uppercase text-sm">
-            {mediumArt}
+          <p className="px-2 bg-gray-50 text-gray-500 border border-gray-300 w-min rounded-md font-medium tracking-[1px] uppercase text-sm">
+              {mediumArt}
           </p>
           <h2
-            className="font-semibold text-2xl px-1 mt-1 uppercase"
-            title={name}
-          >
-            {name.length > 27 ? `${name.slice(0, 27)}...` : name}
-          </h2>
+              className="font-semibold text-xl md:text-2xl py-3 m-1 uppercase"
+              title={name}
+            >
+              {name.length > 27 ? `${name.slice(0, 27)}...` : name}
+            </h2>
         </span>
         <img
           src={image}
@@ -53,7 +53,7 @@ export default function VorschlagCard({
           className="rounded-lg h-[200px] bg-contain"
         />
         {beschreibung && (
-          <p className="text-base">
+          <p className="text-base text-justify hyphens-auto md:pr-5">
             {showMore
               ? beschreibung
               : `${beschreibung.slice(0, 200)}${
@@ -67,16 +67,15 @@ export default function VorschlagCard({
           </button>
         )}
       </div>
-      {codierung}
       <a
-        href={url ? url : "/"}
-        className="uppercase cursor-pointer"
-        target="_blank"
-      >
-        <div className="mt-8 flex items-baseline gap-4 justify-center p-2 rounded-lg bg-black text-white cursor-pointer">
-          zum medium
-          <i className="pi pi-external-link text-sm cursor-pointer"></i>
-        </div>
+            href={url ? url : "/"}
+            className="uppercase cursor-pointer"
+            target="_blank"
+          >
+            <div className="mt-8 flex items-baseline gap-4 justify-center p-2 mx-2 rounded-lg bg-secondary-400  text-white cursor-pointer hover:bg-secondary-300">
+              zum medium
+              <i className="pi pi-external-link text-sm cursor-pointer"></i>
+            </div>
       </a>
     </div>
   );

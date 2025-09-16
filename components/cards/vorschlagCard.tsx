@@ -33,7 +33,7 @@ export default function VorschlagCard({
           : cardIndex === 2
           ? "scale-90"
           : "border-1 border-gray-200"
-      } bg-secondary-100 scale-90 p-6 max-w-[1200px] min-h-[100px] rounded-2xl flex justify-between flex-col shadow-xl transition-all border border-secondary-300`}
+      } bg-secondary-50 scale-90 p-6 max-w-[1200px] min-h-[100px] rounded-2xl flex justify-between flex-col shadow-xl transition-all border border-secondary-300`}
     >
       <div className="flex flex-col sm:flex-row gap-10">
         <div className="flex justify-center">
@@ -81,7 +81,7 @@ export default function VorschlagCard({
             className="uppercase cursor-pointer"
             target="_blank"
           >
-            <div className="mt-8 flex items-center gap-4 justify-center max-w-[200px] p-2 rounded-lg bg-black text-white cursor-pointer hover:bg-slate-300">
+            <div className="mt-8 flex items-center gap-4 justify-center max-w-[200px] p-2 rounded-lg bg-secondary-400  text-white cursor-pointer hover:bg-secondary-300">
               zum medium
               <i className="pi pi-external-link text-sm cursor-pointer"></i>
             </div>

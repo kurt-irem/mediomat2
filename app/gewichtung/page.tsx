@@ -40,10 +40,7 @@ export default function Gewichtung() {
 
   return (
     <div className="w-screen h-screen px-3 md:px-10 pt-16 ">
-      <div>
-        <MenuButton></MenuButton>
-      </div>
-
+    
       <div></div>
       <div className="flex flex-col gap-2 items-center">
         <h1 className="font-semibold text-2xl sm:text-4xl">
@@ -91,7 +88,6 @@ export default function Gewichtung() {
                 frage={frage}
                 onClick={() => {
                   doubleWeight(index);
-                  // handleCounter(index);
                 }}
               />
             </div>
