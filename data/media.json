@@ -1292,7 +1292,6 @@
     "beschreibung": "CORRECTIV ist ein gemeinwohlorientiertes Medienhaus, das Demokratie stärkt. Als vielfach ausgezeichnete Redaktion stehen sie für investigativen Journalismus. Sie lösen öffentliche Debatten aus, arbeiten mit Bürgerinnen und Bürgern an ihren Recherchen und fördern die Gesellschaft mit unseren Bildungsprogrammen. Zentrale Ziele sind, Machtmissbrauch aufzudecken und ein Zeichen gegen Rechtsextremismus zu setzen. Die Recherchen werden durch private Spenden und unabhängige Institutionen oder Stiftungen finanziert, damit sie nicht durch politische Entscheider, Werbung oder Quoten beeinflusst werden.",
     "url": "https://correctiv.org",
     "image": "/logos/correctiv.svg",
-    "image": "/logos/correctiv.svg",
     "code": "corrweb",
     "codierung": {
       "1": 5,
@@ -1565,7 +1564,6 @@
     "mediumArt": "zeitung",
     "beschreibung": "The New York Times ist eine der bekanntesten US-amerikanischen Tageszeitungen. Sie bietet umfassende Berichterstattung über verschiedene Themen wie aktuelle Ereignisse, Politik, Wirtschaft, Kultur und Wissenschaft, sowohl auf nationaler als auch auf internationaler Ebene. Während einige Beiträge kostenlos in der App gelesen werden können, ermöglicht das Jahresabo für 20€ den Zugang zu allen Online-Angeboten der New York Times, einschließlich exklusiver Artikel,Podcasts, Newsletter und Spiele. Darüber hinaus besteht die Möglichkeit, die gedruckte Ausgabe der Zeitung zu abonnieren.",
     "url": "https://www.nytimes.com/section/todayspaper",
-    "image": "/logos/newyork_times.png",
     "image": "/logos/nyt.svg",
     "code": "nyt",
     "codierung": {
