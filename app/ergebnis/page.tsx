@@ -72,19 +72,19 @@ const Ergebnis = () => {
     );
 
     return (
-    <div className="px-3 md:px-10 pt-16 pb-10">
+    <div className="px-1 md:px-10 pt-16 pb-10">
       <div>
         <MenuButton></MenuButton>
       </div>
 
       <div className="flex flex-col wrap justify-center items-center">
-        <h1 className="text-3xl sm:text-4xl font-semibold">Auswertung</h1>
-        <h2 className="text-lg sm:text-xl p-5 pt-7">
-          Diese Auswahl an Medien könnten Sie interessieren:
+        <h1 className="text-4xl sm:text-5xl font-semibold font-mono tracking-wide">Auswertung</h1>
+        <h2 className="text-lg sm:text-xl px-2 pb-3 pt-5 md:py-7 text-center">
+          Diese Medien könnten dich interessieren:
         </h2>
       </div>
 
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-3 md:gap-10">
         <Suspense fallback={<div>Loading...</div>}>
           <div className="flex flex-col justify-center items-center">
             {favoriteCards.map((card, index) => (
@@ -115,20 +115,18 @@ const Ergebnis = () => {
             ))}
           </div>
         </Suspense>
-
-        <div className="flex flex-row md:flex-row gap-10 md:gap-20 wrap justify-center items-center">
+            
+        <div className="flex flex-row md:flex-row gap-8 md:gap-20 wrap justify-center items-center">
           <button
             onClick={() => router.push("/")}
-            className=" px-10 py-4 bg-primary-250 border border-primary-300  text-lg md:text-xl shadow-md flex flex-row-reverse gap-3 justify-center items-center rounded-2xl transition hover:bg-primary-200 hover:scale-105 ease-in uppercase"
+            className="px-10 py-4 bg-secondary-275 border border-secondary-400  text-lg md:text-xl shadow-md flex flex-row-reverse gap-3 justify-center items-center w-[205px] md:w-[220px] rounded-2xl transition hover:bg-secondary-350 hover:scale-105 ease-in uppercase"
           >
-        
             Startseite
           </button>
           <button
             onClick={() => router.push("/media")}
-            className=" px-10 py-4 bg-primary-250 border border-primary-300 text-lg md:text-xl shadow-md flex flex-row-reverse gap-3 justify-center items-center rounded-2xl transition hover:bg-primary-200 hover:scale-105 ease-in uppercase"
+            className=" px-10 py-4 bg-secondary-275 border border-secondary-400 text-lg md:text-xl shadow-md flex flex-row-reverse gap-3 justify-center w-[205px] md:w-[220px] items-center rounded-2xl transition hover:bg-secondary-350 hover:scale-105 ease-in uppercase"
           >
-         
             Alle Medien
           </button>
         </div>

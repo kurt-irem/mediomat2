@@ -13,9 +13,9 @@ export default function BeschreibungsCard({
     <div
       className={`${
         hideExample ? "hidden" : ""
-      } p-4 bg-gray-50 transition ease-in-out text-black max-w-[300px] h-min rounded-lg static shadow-md`}
+      } p-4 bg-gray-50 transition ease-in-out text-black max-w-[600px] h-min rounded-lg shadow-md absolute top-2 right-2 pr-12 ml-2`}
     >
-      <span className="flex flex-row justify-end">
+      <span className="absolute top-2 right-2">
 
         <button
           onClick={handleClick}
@@ -28,9 +28,9 @@ export default function BeschreibungsCard({
       <p
         className={`${
           beschreibung ? "text-gray-400" : "text-gray-500"
-        } text-light font-medium `}
+        } text-sm md:text-base font-medium text-justify hyphens-auto `}
       >
-        {beschreibung ? beschreibung : "keine Beschreibung vorhanden."}
+        {beschreibung ? beschreibung : "Keine Beschreibung vorhanden."}
       </p>
     </div>
   );

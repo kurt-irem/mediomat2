@@ -5,7 +5,7 @@
             "fragenliste": [
                 {
                     "frage": "Ich möchte Nachrichten auf mehreren Plattformen konsumieren können",
-                    "beschreibung": "Das Medium ist auf mehreren Plattformen und oder Kanälen zu finden zum Beispiel in der Mediathek, auf Youtube, bei Spotify, bei Instagram und TikTok etc.",
+                    "beschreibung": "Die Inhalte sind auf mehreren Plattformen und/oder Kanälen zu finden, zum Beispiel in der Mediathek, auf Youtube, Spotify, Instagram, TikTok etc.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -31,7 +31,7 @@
                 },
                 {
                     "frage": "Ich möchte Nachrichten vor allem online konsumieren",
-                    "beschreibung": "Hiermit meinen wir Medien, deren ganzes Angebot (ob Text, Video oder Audio) Online Verfügbar sind.",
+                    "beschreibung": "Medieninhalte, die komplett online bereitstehen, egal ob Text, Video oder Audio.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -57,7 +57,7 @@
                 },
                 {
                     "frage": "Ich möchte Nachrichten vor allem in gedruckter Form konsumieren",
-                    "beschreibung": "Die Präferenz liegt darauf, Nachrichten vor allem in gedruckter Form, beispielsweise in Zeitungen oder Magazinen, zu konsumieren.",
+                    "beschreibung": "Die Inhalte sind in gedruckter Form verfügbar, zum Beispiel in Zeitungen oder Magazinen.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -83,7 +83,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten am liebsten in Form von Text",
-                    "beschreibung": "Präferenz besteht darin, Nachrichten ausschließlich in textbasierter Form zu konsumieren, ohne jegliche Einbindung von Bildern, Videos oder Audioinhalten.",
+                    "beschreibung": "Die Inhalte sind überwiegend in Textform, z.B Artikel, Beiträge oder Berichte.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -109,7 +109,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten am liebsten in Form von reinem Audio",
-                    "beschreibung": "Hier meinen wir Formate wie Radio-sendungen, Podcasts, etc… Was hier nicht reinfällt sind TV-Sendungen, Video-Interview-Formate auf YouTube etc.",
+                    "beschreibung": "Die Inhalte liegen ausschließlich in Audioform vor, z.B. als Radiosendungen oder Podcasts. TV-Sendungen oder Video-Interviews fallen nicht darunter.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -135,7 +135,7 @@
                 },
                 {
                     "frage": "Ich konsumiere Nachrichten am liebsten in Form von Video",
-                    "beschreibung": "Die präferierte Art, Nachrichten zu konsumieren, liegt in der Videoform, wobei die visuelle Präsentation und die dynamische Natur von Bewegtbildern bevorzugt werden.",
+                    "beschreibung": "Klassische Nachrichtensendungen im Fernsehen, Kurzformate auf TikTok oder Instagram, YouTube-Videos etc.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -161,7 +161,7 @@
                 },
                 {
                     "frage": "Ich bevorzuge Themen eher ..",
-                    "beschreibung": "Die Frage ist: willst du deine Nachrichten ‘kurz und knackig’ aufbereitet oder lieber ausführlicher und dafür auch länger.",
+                    "beschreibung": "Es geht darum, ob Nachrichten in kurzen Artikeln oder Videos zusammengefasst oder ausführlich mit Hintergrundberichten in längeren Beiträgen präsentiert werden sollen.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -187,7 +187,7 @@
                 },
                 {
                     "frage": "So regelmäßig möchte ich informiert werden ..",
-                    "beschreibung": "Mit welcher Regelmäßigkeit möchtest du informiert werden?",
+                    "beschreibung": "Wie oft möchtest du neue Nachrichtenupdates erhalten, z.B. als sofortige Liveticker oder lieber wöchentliche Newsletter?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -213,7 +213,7 @@
                 },
                 {
                     "frage": "Ich bin bereit für Journalismus zu bezahlen",
-                    "beschreibung": "Wären Sie bereit, für journalistische Inhalte zu bezahlen?",
+                    "beschreibung": "Zum Beispiel für Artikel hinter einer Paywall oder für Abonnements von Nachrichtenanbietern.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -291,7 +291,7 @@
                 },
                 {
                     "frage": "Ich möchte wissen, von wem und aus welcher Perspektive die Artikel geschrieben werden",
-                    "beschreibung": "",
+                    "beschreibung": "Es geht darum, Informationen über die Autor:innen und die Hintergründe der Berichterstattung zu erhalten.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -317,7 +317,7 @@
                 },
                 {
                     "frage": "Ich will immer über lokale Geschehnisse informiert sein",
-                    "beschreibung": "Hier meinen wir, Dinge, die in deiner Region, Bezirk, Dorf etc. passiert vielleicht aber nicht so viel mit bundespolitischen Themen zu tun haben.",
+                    "beschreibung": "Es geht um Ereignisse in der eigenen Region, im Bezirk oder Dorf, die vielleicht nicht viel mit bundespolitischen Themen zu tun haben, aber für den direkten Lebensbereich relevant sind.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -343,7 +343,7 @@
                 },
                 {
                     "frage": "Ich will immer über internationale Geschehnisse informiert sein",
-                    "beschreibung": "Dir ist wichtig zu wissen was Gesellschaftlich, Politisch Ökonomisch, Klimapolitisch, etc. in der Welt passiert",
+                    "beschreibung": "Mir ist wichtig, zu wissen, was gesellschaftlich, politisch, ökonomisch etc. weltweit passiert.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -369,7 +369,7 @@
                 },
                 {
                     "frage": "Ich will immer über popkulturelle Ereignisse informiert sein",
-                    "beschreibung": "Suchst du speziell nach Medien, die sich mit Musik-, Mode- und Lifestyle-Themen und damit verbundenen Persönlichkeiten und Geschehnissen befassen?",
+                    "beschreibung": "Es geht um Themen wie Musik, Mode, Lifestyle und Trends sowie die Personen und Ereignisse, die in diesen Bereichen aktuell sind.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -395,7 +395,7 @@
                 },
                 {
                     "frage": "Ich will immer über die Wirtschafts- und Finanzwelt informiert sein",
-                    "beschreibung": "Möchtest du wissen, wie es gerade um die Finanzmärkte, Geldpolitik und Unternehmen und ihre wirtschaftliche Entwicklung steht?",
+                    "beschreibung": "Es geht um Informationen aus Wirtschaft und Finanzen, zum Beispiel über Unternehmen, Märkte, Geldpolitik und wirtschaftliche Entwicklungen weltweit oder regional.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -473,7 +473,7 @@
                 },
                 {
                     "frage": "Ich will immer über die politische Lage informiert sein",
-                    "beschreibung": "Sind politische Themen wie Wahlen, internationale Beziehungen und politische Entscheidungen interessant für dich?",
+                    "beschreibung": "Es geht um Themen wie Wahlen, internationale Beziehungen und aktuelle Entscheidungen, die das politische Geschehen prägen.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -499,7 +499,7 @@
                 },
                 {
                     "frage": "Ich will immer über Sport informiert sein",
-                    "beschreibung": "Möchtest du über wichtige Veranstaltungen in unterschiedlichen Sportarten informiert sein und interessierst dich für Strategien, Taktiken und Interviews mit Sportler*innen?",
+                    "beschreibung": "Möchtest du über wichtige Veranstaltungen in unterschiedlichen Sportarten informiert sein und interessierst dich für Strategien, Taktiken und Interviews mit Sportler:innen?",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -608,7 +608,7 @@
                 },
                 {
                     "frage": "Ich würde gerne auch lösungsorientierte Nachrichten konsumieren",
-                    "beschreibung": "Ist dir eine regelmäßig erscheinende Präsentation innovativer und lösungsorientierter Ansätze in der Berichterstattung wichtig?",
+                    "beschreibung": "Es geht um Nachrichten, die nicht nur Probleme darstellen, sondern auch mögliche Lösungen, Ansätze oder Handlungsmöglichkeiten aufzeigen.",
                     "bewertung": [
                         {
                             "wert": 1,
@@ -634,7 +634,7 @@
                 },
                 {
                     "frage": "Ich möchte Nachrichten konsumieren, die mich gut fühlen lassen",
-                    "beschreibung": "Ist es dir wichtig, dass Medien sich in der Berichterstattung regelmäßig speziell auf positive Entwicklungen fokussieren?",
+                    "beschreibung": "Es geht um Nachrichten, die in der Berichterstattung regelmäßig positive Entwicklungen und gute Nachrichten hervorheben.",
                     "bewertung": [
                         {
                             "wert": 1,

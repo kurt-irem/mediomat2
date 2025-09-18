@@ -1448,7 +1448,7 @@
     "mediumArt": "app",
     "beschreibung": "Squirrel News ist ein konstruktiver und kostenloser Nachrichtendienst, der sich darauf konzentriert, lösungsorientierte Berichte aus internationalen Medien zu sammeln. Die App bietet mehrmals wöchentlich Ausgaben mit handverlesenen Artikeln an, die wichtige Fortschritte, positive Initiativen und inspirierende Geschichten hervorheben, die oft in herkömmlichen Nachrichtenquellen zu kurz kommen. Squirrel News ist ein Projekt des gemeinnützigen Vereins Constructive News e.V.",
     "url": "https://squirrel-news.net/de/",
-    "image": "https://cdn1-2010d.kxcdn.com/de/wp-content/uploads/sites/2/2019/10/Squirrel_News-Logo-web.jpg",
+    "image": "/logos/squirrel.png",
     "code": "sqnews",
     "codierung": {
       "1": 3,
@@ -1483,11 +1483,11 @@
     }
   },
   {
-    "name": "Prenzlauer Berg Nachrichten",
+    "name": "Loky*",
     "mediumArt": "website",
-    "beschreibung": "Der lokale Nachrichtendienst berichtet über Themen wie Politik, Alltag, Kultur, Bildung und Geschichte, die den Stadtteil Prenzlauer Berg in Berlin betreffen. Die Beiträge stehen auf der Webseite oder als Newsletter zur Verfügung, wobei durch ein kostenpflichtiges Abo exklusive Inhalte freigeschaltet werden können.",
+    "beschreibung": "Der lokale Nachrichtendienst loky* (vorher: Prenzlauer Berg Nachrichten) berichtet über Themen wie Politik, Alltag, Kultur, Bildung und Geschichte, die den Stadtteil Prenzlauer Berg in Berlin betreffen. Die Beiträge stehen auf der Webseite oder als Newsletter zur Verfügung, wobei durch ein kostenpflichtiges Abo exklusive Inhalte freigeschaltet werden können.",
     "url": "https://www.prenzlauerberg-nachrichten.de",
-    "image": "https://www.prenzlauerberg-nachrichten.de/wp-content/uploads/2017/01/PBN_Logo_SW-500_83-72dpi.jpg",
+    "image": "/logos/loky_logo.png",
     "code": "pberg",
     "codierung": {
       "1": 3,

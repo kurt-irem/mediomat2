@@ -14,7 +14,7 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <div className="w-screen h-screen py-2 px-2 sm:px-4 md:px-5 ">
+    <div className="w-screen h-screen py-2 px-2 sm:px-4 md:px-5">
       <div className=" relative">
         <MenuButton></MenuButton>
       </div>
@@ -42,7 +42,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="about" className="py-5 px-6 md:px-10 flex flex-col gap-10 md:gap-20 justify-center items-center">
+      {/* Info Section */}
+      <div id="about" className=" pt-12 py-5 px-6 md:px-10 flex flex-col gap-10 md:gap-20 justify-center items-center">
         <div className="flex flex-col gap-6 max-w-[800px]">
           <h2 className="font-semibold text-2xl md:text-3xl">
             {textData.wasIstWahlOMatHeader}
@@ -65,7 +66,7 @@ export default function Home() {
             <p className="text-justify hyphens-auto leading-7" style={{ whiteSpace: "pre-wrap" }}>{textData.disclaimerSubtext}</p>
             <button
               onClick={() => router.push("/media")}
-              className="underline text-gray-400 font-medium py-1"
+              className="underline text-gray-400 font-medium py-1 pb-5"
             >
               {textData.medienuebersichtButton}
             </button>

@@ -33,7 +33,7 @@ export default function VorschlagCard({
           : cardIndex === 2
           ? "scale-90"
           : "border-1 border-gray-200"
-      } bg-secondary-50 scale-90 p-6 max-w-[400px] min-h-[700px] rounded-2xl flex justify-between flex-col shadow-xl transition-all border border-secondary-300`}
+      } bg-secondary-50 scale-90 p-6 max-w-[400px] md:max-w-[400px] min-h-[500px] rounded-2xl flex justify-between flex-col shadow-xl transition-all border border-secondary-300`}
     >
       <div className="flex flex-col gap-8">
         <span>
@@ -50,7 +50,7 @@ export default function VorschlagCard({
         <img
           src={image}
           alt="medium"
-          className="rounded-lg h-[200px] bg-contain"
+          className="rounded-lg h-[175px] object-contain"
         />
         {beschreibung && (
           <p className="text-base text-justify hyphens-auto md:pr-5">

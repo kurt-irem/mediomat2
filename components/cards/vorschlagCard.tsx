@@ -36,12 +36,11 @@ export default function VorschlagCard({
       } bg-secondary-50 scale-90 p-6 max-w-[1200px] min-h-[100px] rounded-2xl flex justify-between flex-col shadow-xl transition-all border border-secondary-300`}
     >
       <div className="flex flex-col sm:flex-row gap-10">
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center">
           <img
             src={image}
             alt="medium"
-            className="rounded-lg h-[200px] max-w-[200px] bg-contain"
-            // w-full h-[200px] sm:max-w-[200px]  sm:w-auto
+            className="rounded-lg max-h-[300px] w-[400px] object-contain"
           />
         </div>
         <div>

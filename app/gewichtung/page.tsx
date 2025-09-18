@@ -3,8 +3,6 @@ import GewichtungsCard from "@/components/cards/gewichtungsCard";
 import React, { useState } from "react";
 import data from "../../data/questions.json";
 import { useRouter, useSearchParams } from "next/navigation";
-import { router } from "next/client";
-import MenuButton from "@/components/menu";
 
 interface Answer {
   value: number;
@@ -39,17 +37,15 @@ export default function Gewichtung() {
   }
 
   return (
-    <div className="w-screen h-screen px-3 md:px-10 pt-16 ">
+    <div className="w-screen h-screen px-3 md:px-10 pt-10 ">
     
       <div></div>
       <div className="flex flex-col gap-2 items-center">
-        <h1 className="font-semibold text-2xl sm:text-4xl">
-          Gewichtung der Thesen
+        <h1 className="text-4xl sm:text-5xl font-semibold font-mono tracking-wide">
+          Gewichtung
         </h1>
-        <h3 className=" text-sm sm:text-xl max-w-[900px] p-2 pl-5  sm:p-10 ">
-          Welche Thesen sind Ihnen besonders wichtig? Markieren Sie die Thesen,
-          um diese mit doppelter Gewichtung in die Berechnung einfließen zu
-          lassen.
+        <h3 className=" text-base sm:text-xl p-3 sm:p-5 text-center">
+          Welche Thesen sind dir besonders wichtig und sollen doppelt gewichtet werden?
         </h3>
 
         <div className="flex flex-col bg-secondary-100 rounded-2xl"> 
@@ -59,7 +55,7 @@ export default function Gewichtung() {
           }`}
         >
           {questions.map((frage, index) => (
-            <div className="w-full px-5 md:px-10" key={index}>
+            <div className="w-full px-5 md:px-10 tracking-wide hyphens-auto" key={index}>
               {index === 0 ? (
                 <p className="gewichtungCategory">Plattform</p>
               ) : (
@@ -99,7 +95,7 @@ export default function Gewichtung() {
             onClick={() => setShowMore(!showMore)}
           >
             {showMore ? (
-              <div className="flex flex-row gap-3 items-center justify-center pb-5">
+              <div className="flex flex-row gap-3 items-center justify-center pb-4">
                 <p>Weniger anzeigen</p>
                 <i
                   className="pi pi-chevron-up"
@@ -107,7 +103,7 @@ export default function Gewichtung() {
                 ></i>
               </div>
             ) : (
-             <div className="flex flex-row gap-3 items-center justify-center py-3 md:py-5 border-t border-secondary-300">
+             <div className="flex flex-row gap-3 items-center justify-center py-3 border-t border-secondary-300">
                 <p>Alle anzeigen</p>
                 <i
                   className="pi pi-chevron-down "
