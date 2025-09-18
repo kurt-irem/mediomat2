@@ -12,7 +12,7 @@ export default function FrageButton({
     <button
       type="button"
       onClick={handleClick}
-      className="flex-1 py-4 md:py-2 px-6 border-solid border bg-secondary-base border-secondary-300 rounded-[30px] transition md:hover:bg-secondary-200 hover:scale-105 text-base md:text-[14px] max-[768px]:focus:scale-100"
+      className="flex-1 py-4 md:py-2 px-6 border-solid border bg-secondary-base border-secondary-300 rounded-[30px] transition md:hover:bg-secondary-200 md:hover:scale-105 text-base md:text-[14px]"
     >
       {label}
     </button>
